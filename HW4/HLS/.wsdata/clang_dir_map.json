@@ -1,0 +1,10 @@
+{
+  "workspaceRoot": "F:\\EECE4632\\HW4\\HLS",
+  "mapping": {
+    "divide_by_13\\divide_by_13_tb": "divide_by_13",
+    "C:\\Users\\langweil.m\\Downloads\\axi_stream_tutorial\\axi_stream_tutorial\\divide_tb.cpp": "divide_by_13",
+    "divide_by_13\\divide_by_13_tb.cpp": "divide_by_13",
+    "divide_by_13\\divide_by_13.cpp": "divide_by_13",
+    "C:\\Users\\langweil.m\\Downloads\\axi_stream_tutorial\\axi_stream_tutorial\\divide.cpp": "divide_by_13"
+  }
+}

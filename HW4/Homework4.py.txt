@@ -1,0 +1,123 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+# In[4]:
+
+
+import time    
+def divide_by_thirteen_sw(integerlist):
+    """This function outputs a list where, if the integer on
+
+           the input list is divisible by thirteen, the corresponding
+
+           output is  1 else the output is 0  """  
+    start_time = time.time()
+    multiple_of_thirteen = 0
+    list_of_multiples = []
+    for i in range(len(integerlist)):
+        newval = integerlist[i]
+        if (newval % 13 == 0):
+            multiple_of_thirteen = 1
+        else: 
+            multiple_of_thirteen = 0
+        list_of_multiples.append(multiple_of_thirteen)
+        multiple_of_thirteen = 0
+    end_time = time.time()
+    elapsed_time = end_time - start_time
+    print("Elapsed time", elapsed_time)
+    return list_of_multiples
+
+
+# In[35]:
+
+
+from pynq import Overlay
+from pynq import DefaultIP
+
+
+overlay = Overlay('hw3.bit')
+add_ip = overlay.divisible
+add_ip.register_map
+class AddDriver(DefaultIP):
+    def __init__(self, description):
+        super().__init__(description=description)
+
+    bindto = ['xilinx.com:hls:divisible:1.0']
+
+    def divisible_by_thirteen(self, a):
+        self.write(0x10, a)
+        return self.read(0x18)
+    
+def divide_by_thirteen_hw(integerList):
+    start_time = time.time()
+    list_of_multiples = []
+    for i in range(len(integerList)):
+        list_of_multiples.append(overlay.divisible.divisible_by_thirteen(integerList[i]))
+    end_time = time.time()
+    elapsed_time = end_time - start_time
+    print("Elapsed time", elapsed_time)
+    return list_of_multiples
+    
+
+
+# In[51]:
+
+
+from pynq import Overlay
+from pynq import allocate 
+import numpy as np 
+import time
+
+ol = Overlay("divisible_stream.bit") 
+dma = ol.axi_dma 
+dma_send = ol.axi_dma.sendchannel 
+dma_recv = ol.axi_dma.recvchannel 
+hls_ip = ol.divide_by_13
+hls_ip.register_map 
+
+
+
+ 
+def divide_by_thirteen_stream(integerList):
+    CONTROL_REGISTER = 0x0 
+    hls_ip.write(CONTROL_REGISTER, 0x81) # 0x81 will set bit 0
+    data_size = 1000
+    output_buffer = allocate(shape=(data_size,), dtype=np.uint32) 
+    input_buffer = allocate(shape=(data_size,), dtype=np.uint32) 
+    for i in range(len(integerList)): 
+        input_buffer[i] = integerList[i]
+    start_time = time.time()
+    dma_send.transfer(input_buffer) 
+    dma_recv.transfer(output_buffer)
+    end_time = time.time()
+    for i in range(len(integerList)): 
+        integerList[i] = output_buffer[i] 
+    del input_buffer, output_buffer 
+    elapsed_time = end_time - start_time
+    print("Elapsed time", elapsed_time)
+    return integerList
+
+
+# In[52]:
+
+
+divide_by_thirteen_sw([x for x in range(1000)])
+
+
+# In[36]:
+
+
+divide_by_thirteen_hw([x for x in range(1000)])
+
+
+# In[53]:
+
+
+divide_by_thirteen_stream([x for x in range(1000)])
+
+
+# In[ ]:
+
+
+
+

@@ -1,0 +1,14 @@
+[
+  {
+    "directory": "F:\\EECE4632\\HW3\\HLS\\divisible",
+    "arguments": [
+      "C:\\Xilinx\\Vitis_HLS\\2024.1\\vcxx\\libexec\\clang++.exe",
+      "-fhls",
+      "-hls-syn-headers-dir=C:\\Xilinx\\Vitis_HLS\\2024.1\\common\\technology\\autopilot",
+      "",
+      "-c",
+      "F:\\EECE4632\\HW3\\HLS\\divisible\\divisible.cpp"
+    ],
+    "file": "F:\\EECE4632\\HW3\\HLS\\divisible\\divisible.cpp"
+  }
+]

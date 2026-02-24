@@ -1,0 +1,3 @@
+relativeroot=C:/Users/langweil.m/Documents/EECE4632/adder
+original_argv=--mode hls --package --config C:\Users\langweil.m\Documents\EECE4632\adder\hls_config.cfg --work_dir adder 
+

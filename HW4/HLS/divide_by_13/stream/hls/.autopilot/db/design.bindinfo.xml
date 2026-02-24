@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BindInfo>
+	<BindNode BINDTYPE="op" DISPLAY="bind_op srem" ID="" IMPL="auto" LATENCY="35" OPTYPE="srem" PRAGMA="" RTLNAME="srem_32ns_5ns_5_36_1_U1" SOURCE="C:/Users/langweil.m/Downloads/axi_stream_tutorial/axi_stream_tutorial/divide.cpp:16" VARIABLE="srem_ln16" MODULE="divide_by_13" LOOP="VITIS_LOOP_13_1" BUNDLEDNAME="" DSP="0" BRAM="0" URAM="0" USAGE="" STORAGESUBTYPE="" STORAGESIZE=""/>
+	<BindNode BINDTYPE="op" DISPLAY="bind_op seteq" ID="" IMPL="auto" LATENCY="0" OPTYPE="seteq" PRAGMA="" RTLNAME="tmp_data_1_fu_153_p2" SOURCE="C:/Users/langweil.m/Downloads/axi_stream_tutorial/axi_stream_tutorial/divide.cpp:16" VARIABLE="tmp_data_1" MODULE="divide_by_13" LOOP="VITIS_LOOP_13_1" BUNDLEDNAME="" DSP="0" BRAM="0" URAM="0" USAGE="" STORAGESUBTYPE="" STORAGESIZE=""/>
+	<BindNode BINDTYPE="adapter" DISPLAY="bind_adapter axilite" ID="" IMPL="" LATENCY="" OPTYPE="" PRAGMA="" RTLNAME="control_s_axi_U" SOURCE="" VARIABLE="" MODULE="divide_by_13" LOOP="" BUNDLEDNAME="control" DSP="0" BRAM="0" URAM="0" USAGE="interface" STORAGESUBTYPE="s_axilite" STORAGESIZE=""/>
+</BindInfo>

@@ -1,0 +1,182 @@
+15:28:33 INFO  : updated workspace path: F:\EECE4632\Lab3
+15:28:33 INFO  : created .gitignore file for the project F:\EECE4632\Lab3
+15:28:33 ERROR : Cannot save peer list
+java.io.FileNotFoundException: F:\EECE4632\Lab3\.wsdata\.peers.ini (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:?]
+	at java.io.FileOutputStream.open(FileOutputStream.java:298) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:237) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:187) ~[?:?]
+	at com.xilinx.rigel.debug.tcf.targets.TCFUserDefPeer.savePeers(TCFUserDefPeer.java:151) [rigel_server-1.0.0-161.jar:?]
+	at com.xilinx.rigel.debug.tcf.targets.PeerUtil.createPeerWithAttrs(PeerUtil.java:247) [rigel_server-1.0.0-161.jar:?]
+	at com.xilinx.rigel.debug.tcf.targets.PeerUtil.createPeerWithAttrs(PeerUtil.java:241) [rigel_server-1.0.0-161.jar:?]
+	at com.xilinx.rigel.debug.tcf.targets.PeerUtil.createDefaultPeers(PeerUtil.java:175) [rigel_server-1.0.0-161.jar:?]
+	at com.xilinx.rigel.debug.tcf.targets.TCFUserDefPeer.loadPeers(TCFUserDefPeer.java:116) [rigel_server-1.0.0-161.jar:?]
+	at com.xilinx.rigel.services.debugger.DebuggerService$4.run(DebuggerService.java:371) [rigel_server-1.0.0-161.jar:?]
+	at org.eclipse.tcf.init.EventQueue.run(EventQueue.java:68) [rigel_server-1.0.0-161.jar:?]
+	at java.lang.Thread.run(Thread.java:829) [?:?]
+15:28:33 ERROR : Cannot save peer list
+java.io.FileNotFoundException: F:\EECE4632\Lab3\.wsdata\.peers.ini (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:?]
+	at java.io.FileOutputStream.open(FileOutputStream.java:298) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:237) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:187) ~[?:?]
+	at com.xilinx.rigel.debug.tcf.targets.TCFUserDefPeer.savePeers(TCFUserDefPeer.java:151) [rigel_server-1.0.0-161.jar:?]
+	at com.xilinx.rigel.debug.tcf.targets.PeerUtil.createPeerWithAttrs(PeerUtil.java:247) [rigel_server-1.0.0-161.jar:?]
+	at com.xilinx.rigel.debug.tcf.targets.PeerUtil.createPeerWithAttrs(PeerUtil.java:241) [rigel_server-1.0.0-161.jar:?]
+	at com.xilinx.rigel.debug.tcf.targets.PeerUtil.createDefaultPeers(PeerUtil.java:181) [rigel_server-1.0.0-161.jar:?]
+	at com.xilinx.rigel.debug.tcf.targets.TCFUserDefPeer.loadPeers(TCFUserDefPeer.java:116) [rigel_server-1.0.0-161.jar:?]
+	at com.xilinx.rigel.services.debugger.DebuggerService$4.run(DebuggerService.java:371) [rigel_server-1.0.0-161.jar:?]
+	at org.eclipse.tcf.init.EventQueue.run(EventQueue.java:68) [rigel_server-1.0.0-161.jar:?]
+	at java.lang.Thread.run(Thread.java:829) [?:?]
+15:28:33 ERROR : Cannot save peer list
+java.io.FileNotFoundException: F:\EECE4632\Lab3\.wsdata\.peers.ini (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:?]
+	at java.io.FileOutputStream.open(FileOutputStream.java:298) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:237) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:187) ~[?:?]
+	at com.xilinx.rigel.debug.tcf.targets.TCFUserDefPeer.savePeers(TCFUserDefPeer.java:151) [rigel_server-1.0.0-161.jar:?]
+	at com.xilinx.rigel.debug.tcf.targets.PeerUtil.createPeerWithAttrs(PeerUtil.java:247) [rigel_server-1.0.0-161.jar:?]
+	at com.xilinx.rigel.debug.tcf.targets.PeerUtil.createPeerWithAttrs(PeerUtil.java:241) [rigel_server-1.0.0-161.jar:?]
+	at com.xilinx.rigel.debug.tcf.targets.PeerUtil.createDefaultPeers(PeerUtil.java:187) [rigel_server-1.0.0-161.jar:?]
+	at com.xilinx.rigel.debug.tcf.targets.TCFUserDefPeer.loadPeers(TCFUserDefPeer.java:116) [rigel_server-1.0.0-161.jar:?]
+	at com.xilinx.rigel.services.debugger.DebuggerService$4.run(DebuggerService.java:371) [rigel_server-1.0.0-161.jar:?]
+	at org.eclipse.tcf.init.EventQueue.run(EventQueue.java:68) [rigel_server-1.0.0-161.jar:?]
+	at java.lang.Thread.run(Thread.java:829) [?:?]
+15:28:33 ERROR : Cannot save peer list
+java.io.FileNotFoundException: F:\EECE4632\Lab3\.wsdata\.peers.ini (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:?]
+	at java.io.FileOutputStream.open(FileOutputStream.java:298) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:237) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:187) ~[?:?]
+	at com.xilinx.rigel.debug.tcf.targets.TCFUserDefPeer.savePeers(TCFUserDefPeer.java:151) [rigel_server-1.0.0-161.jar:?]
+	at com.xilinx.rigel.debug.tcf.targets.PeerUtil.createPeerWithAttrs(PeerUtil.java:247) [rigel_server-1.0.0-161.jar:?]
+	at com.xilinx.rigel.debug.tcf.targets.PeerUtil.createPeerWithAttrs(PeerUtil.java:241) [rigel_server-1.0.0-161.jar:?]
+	at com.xilinx.rigel.debug.tcf.targets.PeerUtil.createDefaultPeers(PeerUtil.java:193) [rigel_server-1.0.0-161.jar:?]
+	at com.xilinx.rigel.debug.tcf.targets.TCFUserDefPeer.loadPeers(TCFUserDefPeer.java:116) [rigel_server-1.0.0-161.jar:?]
+	at com.xilinx.rigel.services.debugger.DebuggerService$4.run(DebuggerService.java:371) [rigel_server-1.0.0-161.jar:?]
+	at org.eclipse.tcf.init.EventQueue.run(EventQueue.java:68) [rigel_server-1.0.0-161.jar:?]
+	at java.lang.Thread.run(Thread.java:829) [?:?]
+15:28:33 ERROR : Cannot save peer list
+java.io.FileNotFoundException: F:\EECE4632\Lab3\.wsdata\.peers.ini (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:?]
+	at java.io.FileOutputStream.open(FileOutputStream.java:298) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:237) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:187) ~[?:?]
+	at com.xilinx.rigel.debug.tcf.targets.TCFUserDefPeer.savePeers(TCFUserDefPeer.java:151) [rigel_server-1.0.0-161.jar:?]
+	at com.xilinx.rigel.debug.tcf.targets.PeerUtil.createPeerWithAttrs(PeerUtil.java:247) [rigel_server-1.0.0-161.jar:?]
+	at com.xilinx.rigel.debug.tcf.targets.PeerUtil.createPeerWithAttrs(PeerUtil.java:241) [rigel_server-1.0.0-161.jar:?]
+	at com.xilinx.rigel.debug.tcf.targets.PeerUtil.createDefaultPeers(PeerUtil.java:199) [rigel_server-1.0.0-161.jar:?]
+	at com.xilinx.rigel.debug.tcf.targets.TCFUserDefPeer.loadPeers(TCFUserDefPeer.java:116) [rigel_server-1.0.0-161.jar:?]
+	at com.xilinx.rigel.services.debugger.DebuggerService$4.run(DebuggerService.java:371) [rigel_server-1.0.0-161.jar:?]
+	at org.eclipse.tcf.init.EventQueue.run(EventQueue.java:68) [rigel_server-1.0.0-161.jar:?]
+	at java.lang.Thread.run(Thread.java:829) [?:?]
+15:28:33 ERROR : Cannot save peer list
+java.io.FileNotFoundException: F:\EECE4632\Lab3\.wsdata\.peers.ini (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:?]
+	at java.io.FileOutputStream.open(FileOutputStream.java:298) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:237) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:187) ~[?:?]
+	at com.xilinx.rigel.debug.tcf.targets.TCFUserDefPeer.savePeers(TCFUserDefPeer.java:151) ~[rigel_server-1.0.0-161.jar:?]
+	at com.xilinx.rigel.debug.tcf.targets.TCFUserDefPeer.lambda$modifyPeer$1(TCFUserDefPeer.java:68) ~[rigel_server-1.0.0-161.jar:?]
+	at org.eclipse.tcf.protocol.Protocol.invokeAndWait(Protocol.java:220) [rigel_server-1.0.0-161.jar:?]
+	at com.xilinx.rigel.debug.tcf.targets.TCFUserDefPeer.modifyPeer(TCFUserDefPeer.java:70) [rigel_server-1.0.0-161.jar:?]
+	at com.xilinx.rigel.debug.tcf.targets.PeerUtil.createDefaultPeers(PeerUtil.java:205) [rigel_server-1.0.0-161.jar:?]
+	at com.xilinx.rigel.debug.tcf.targets.TCFUserDefPeer.loadPeers(TCFUserDefPeer.java:116) [rigel_server-1.0.0-161.jar:?]
+	at com.xilinx.rigel.services.debugger.DebuggerService$4.run(DebuggerService.java:371) [rigel_server-1.0.0-161.jar:?]
+	at org.eclipse.tcf.init.EventQueue.run(EventQueue.java:68) [rigel_server-1.0.0-161.jar:?]
+	at java.lang.Thread.run(Thread.java:829) [?:?]
+15:28:33 INFO  : Marking the target connection as default Local
+15:28:33 ERROR : Cannot save peer list
+java.io.FileNotFoundException: F:\EECE4632\Lab3\.wsdata\.peers.ini (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:?]
+	at java.io.FileOutputStream.open(FileOutputStream.java:298) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:237) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:187) ~[?:?]
+	at com.xilinx.rigel.debug.tcf.targets.TCFUserDefPeer.savePeers(TCFUserDefPeer.java:151) ~[rigel_server-1.0.0-161.jar:?]
+	at com.xilinx.rigel.debug.tcf.targets.TCFUserDefPeer.lambda$modifyPeer$1(TCFUserDefPeer.java:68) ~[rigel_server-1.0.0-161.jar:?]
+	at org.eclipse.tcf.protocol.Protocol.invokeAndWait(Protocol.java:220) [rigel_server-1.0.0-161.jar:?]
+	at com.xilinx.rigel.debug.tcf.targets.TCFUserDefPeer.modifyPeer(TCFUserDefPeer.java:70) [rigel_server-1.0.0-161.jar:?]
+	at com.xilinx.rigel.debug.tcf.targets.PeerUtil.createDefaultPeers(PeerUtil.java:206) [rigel_server-1.0.0-161.jar:?]
+	at com.xilinx.rigel.debug.tcf.targets.TCFUserDefPeer.loadPeers(TCFUserDefPeer.java:116) [rigel_server-1.0.0-161.jar:?]
+	at com.xilinx.rigel.services.debugger.DebuggerService$4.run(DebuggerService.java:371) [rigel_server-1.0.0-161.jar:?]
+	at org.eclipse.tcf.init.EventQueue.run(EventQueue.java:68) [rigel_server-1.0.0-161.jar:?]
+	at java.lang.Thread.run(Thread.java:829) [?:?]
+15:28:33 INFO  : Marking the target connection as default Linux Agent
+15:28:33 ERROR : Cannot save peer list
+java.io.FileNotFoundException: F:\EECE4632\Lab3\.wsdata\.peers.ini (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:?]
+	at java.io.FileOutputStream.open(FileOutputStream.java:298) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:237) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:187) ~[?:?]
+	at com.xilinx.rigel.debug.tcf.targets.TCFUserDefPeer.savePeers(TCFUserDefPeer.java:151) ~[rigel_server-1.0.0-161.jar:?]
+	at com.xilinx.rigel.debug.tcf.targets.TCFUserDefPeer.lambda$modifyPeer$1(TCFUserDefPeer.java:68) ~[rigel_server-1.0.0-161.jar:?]
+	at org.eclipse.tcf.protocol.Protocol.invokeAndWait(Protocol.java:220) [rigel_server-1.0.0-161.jar:?]
+	at com.xilinx.rigel.debug.tcf.targets.TCFUserDefPeer.modifyPeer(TCFUserDefPeer.java:70) [rigel_server-1.0.0-161.jar:?]
+	at com.xilinx.rigel.debug.tcf.targets.PeerUtil.createDefaultPeers(PeerUtil.java:207) [rigel_server-1.0.0-161.jar:?]
+	at com.xilinx.rigel.debug.tcf.targets.TCFUserDefPeer.loadPeers(TCFUserDefPeer.java:116) [rigel_server-1.0.0-161.jar:?]
+	at com.xilinx.rigel.services.debugger.DebuggerService$4.run(DebuggerService.java:371) [rigel_server-1.0.0-161.jar:?]
+	at org.eclipse.tcf.init.EventQueue.run(EventQueue.java:68) [rigel_server-1.0.0-161.jar:?]
+	at java.lang.Thread.run(Thread.java:829) [?:?]
+15:28:33 INFO  : Marking the target connection as default XRTServer
+15:28:33 ERROR : Cannot save peer list
+java.io.FileNotFoundException: F:\EECE4632\Lab3\.wsdata\.peers.ini (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:?]
+	at java.io.FileOutputStream.open(FileOutputStream.java:298) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:237) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:187) ~[?:?]
+	at com.xilinx.rigel.debug.tcf.targets.TCFUserDefPeer.savePeers(TCFUserDefPeer.java:151) ~[rigel_server-1.0.0-161.jar:?]
+	at com.xilinx.rigel.debug.tcf.targets.TCFUserDefPeer.lambda$modifyPeer$1(TCFUserDefPeer.java:68) ~[rigel_server-1.0.0-161.jar:?]
+	at org.eclipse.tcf.protocol.Protocol.invokeAndWait(Protocol.java:220) [rigel_server-1.0.0-161.jar:?]
+	at com.xilinx.rigel.debug.tcf.targets.TCFUserDefPeer.modifyPeer(TCFUserDefPeer.java:70) [rigel_server-1.0.0-161.jar:?]
+	at com.xilinx.rigel.debug.tcf.targets.PeerUtil.createDefaultPeers(PeerUtil.java:209) [rigel_server-1.0.0-161.jar:?]
+	at com.xilinx.rigel.debug.tcf.targets.TCFUserDefPeer.loadPeers(TCFUserDefPeer.java:116) [rigel_server-1.0.0-161.jar:?]
+	at com.xilinx.rigel.services.debugger.DebuggerService$4.run(DebuggerService.java:371) [rigel_server-1.0.0-161.jar:?]
+	at org.eclipse.tcf.init.EventQueue.run(EventQueue.java:68) [rigel_server-1.0.0-161.jar:?]
+	at java.lang.Thread.run(Thread.java:829) [?:?]
+15:28:33 INFO  : Marking the target connection as default LinuxEmulation
+15:28:33 ERROR : Cannot save peer list
+java.io.FileNotFoundException: F:\EECE4632\Lab3\.wsdata\.peers.ini (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:?]
+	at java.io.FileOutputStream.open(FileOutputStream.java:298) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:237) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:187) ~[?:?]
+	at com.xilinx.rigel.debug.tcf.targets.TCFUserDefPeer.savePeers(TCFUserDefPeer.java:151) ~[rigel_server-1.0.0-161.jar:?]
+	at com.xilinx.rigel.debug.tcf.targets.TCFUserDefPeer.lambda$modifyPeer$1(TCFUserDefPeer.java:68) ~[rigel_server-1.0.0-161.jar:?]
+	at org.eclipse.tcf.protocol.Protocol.invokeAndWait(Protocol.java:220) [rigel_server-1.0.0-161.jar:?]
+	at com.xilinx.rigel.debug.tcf.targets.TCFUserDefPeer.modifyPeer(TCFUserDefPeer.java:70) [rigel_server-1.0.0-161.jar:?]
+	at com.xilinx.rigel.debug.tcf.targets.PeerUtil.createDefaultPeers(PeerUtil.java:211) [rigel_server-1.0.0-161.jar:?]
+	at com.xilinx.rigel.debug.tcf.targets.TCFUserDefPeer.loadPeers(TCFUserDefPeer.java:116) [rigel_server-1.0.0-161.jar:?]
+	at com.xilinx.rigel.services.debugger.DebuggerService$4.run(DebuggerService.java:371) [rigel_server-1.0.0-161.jar:?]
+	at org.eclipse.tcf.init.EventQueue.run(EventQueue.java:68) [rigel_server-1.0.0-161.jar:?]
+	at java.lang.Thread.run(Thread.java:829) [?:?]
+15:28:33 INFO  : Marking the target connection as default QEMU
+15:28:34 INFO  : created .gitignore file for the project F:\EECE4632\Lab3\stream
+15:28:35 INFO  : Successfully created repository data at C:\Users\langweil.m\AppData\Local\Temp\rigel_lopper_langweil.m9851119636950301610
+15:28:35 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.1\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.1\data\embeddedsw\scripts\pyesw\\get_template_data.py -d C:\Users\langweil.m\AppData\Local\Temp\rigel_lopper_langweil.m12740264522525826431 -r C:\Users\langweil.m\AppData\Local\Temp\rigel_lopper_langweil.m9851119636950301610\.repo.yaml && C:\Xilinx\Vitis\2024.1\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:28:36 INFO  : Embedded Template List generated successfully
+15:28:36 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.1\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.1\data\embeddedsw\scripts\pyesw\\repo.py -st   C:\Xilinx\Vitis\2024.1\data\embeddedsw && C:\Xilinx\Vitis\2024.1\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:28:38 INFO  : Successfully created repository data at F:\EECE4632\Lab3/.wsdata
+15:28:38 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.1\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.1\data\embeddedsw\scripts\pyesw\\get_template_data.py -d C:\Users\langweil.m\AppData\Local\Temp\rigel_lopper_langweil.m1249372609562052737 -r F:\EECE4632\Lab3\.wsdata\.repo.yaml && C:\Xilinx\Vitis\2024.1\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:28:38 INFO  : Embedded Template List generated successfully
+15:29:40 INFO  : connection terminated
+15:29:40 INFO  : connection terminated
+15:29:40 INFO  : scheduling shutdown timer for 2 seconds ...
+15:29:42 INFO  : Terminating Vitis C++ Server
+15:29:42 INFO  : Vitis C++ Server terminated
+15:30:31 INFO  : updated workspace path: F:\EECE4632\Lab3
+15:30:31 INFO  : created .gitignore file for the project F:\EECE4632\Lab3
+15:30:31 INFO  : Marking the target connection as default Local
+15:30:31 INFO  : Marking the target connection as default Linux Agent
+15:30:31 INFO  : Marking the target connection as default XRTServer
+15:30:31 INFO  : Marking the target connection as default LinuxEmulation
+15:30:31 INFO  : Marking the target connection as default QEMU
+15:30:33 INFO  : Successfully created repository data at C:\Users\langweil.m\AppData\Local\Temp\rigel_lopper_langweil.m2177624580088609612
+15:30:33 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.1\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.1\data\embeddedsw\scripts\pyesw\\get_template_data.py -d C:\Users\langweil.m\AppData\Local\Temp\rigel_lopper_langweil.m249506462722593307 -r C:\Users\langweil.m\AppData\Local\Temp\rigel_lopper_langweil.m2177624580088609612\.repo.yaml && C:\Xilinx\Vitis\2024.1\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:30:33 INFO  : Embedded Template List generated successfully
+15:30:33 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.1\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.1\data\embeddedsw\scripts\pyesw\\get_template_data.py -d C:\Users\langweil.m\AppData\Local\Temp\rigel_lopper_langweil.m7137808177614473644 -r F:\EECE4632\Lab3\.wsdata\.repo.yaml && C:\Xilinx\Vitis\2024.1\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:30:33 INFO  : Embedded Template List generated successfully
+16:16:02 INFO  : connection terminated
+16:16:02 INFO  : connection terminated
+16:16:02 INFO  : scheduling shutdown timer for 2 seconds ...
+16:16:04 INFO  : Terminating Vitis C++ Server
+16:16:04 INFO  : Vitis C++ Server terminated

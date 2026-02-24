@@ -1,0 +1,3 @@
+relativeroot=F:/EECE4632/Lab3/stream
+original_argv=--mode hls --package --config F:\EECE4632\Lab3\stream\hls_config.cfg --work_dir stream 
+

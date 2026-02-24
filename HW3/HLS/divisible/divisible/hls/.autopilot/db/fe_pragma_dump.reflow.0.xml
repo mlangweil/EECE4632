@@ -1,0 +1,5 @@
+<pragmas>
+<pragma file="divisible.cpp" line="2" pragmaType="interface" parentfunction="divisible" mode="ap_ctrl_none" port="return" name=""/>
+<pragma file="divisible.cpp" line="3" pragmaType="interface" parentfunction="divisible" mode="s_axilite" port="a" bundle="" offset="-1" name="" clock="" impl="" register="0"/>
+<pragma file="divisible.cpp" line="4" pragmaType="interface" parentfunction="divisible" mode="s_axilite" port="c" bundle="" offset="-1" name="" clock="" impl="" register="0"/>
+</pragmas>

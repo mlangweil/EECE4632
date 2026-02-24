@@ -1,0 +1,8 @@
+{
+  "workspaceRoot": "F:\\EECE4632\\HW5\\HLS",
+  "mapping": {
+    "divide_by_13\\divide_by_13.h": "divide_by_13",
+    "divide_by_13\\divide_tb.cpp": "divide_by_13",
+    "divide_by_13\\divide_by_13.cpp": "divide_by_13"
+  }
+}

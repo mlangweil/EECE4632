@@ -1,0 +1,3 @@
+AXI stream does help my hardware run faster on larger data sets and scales better when there is much more data to be transferred due to overhead costs of DMA. For example, with a list size of 100, it performs 2x as fast as AXILITE, however, with a list size of 10, AXILITE is faster. Though, software still beats both in execution time for the program. 
+
+Currently, software is the fastest, then AXILITE and finally AXI stream for smaller data sets. But with a list size of 1000, AXI-stream beats software.

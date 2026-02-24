@@ -1,0 +1,26 @@
+[
+  {
+    "directory": "F:\\EECE4632\\HW4\\HLS\\divide_by_13",
+    "arguments": [
+      "C:\\Xilinx\\Vitis_HLS\\2024.1\\vcxx\\libexec\\clang++.exe",
+      "-fhls",
+      "-hls-syn-headers-dir=C:\\Xilinx\\Vitis_HLS\\2024.1\\common\\technology\\autopilot",
+      "",
+      "-c",
+      "C:\\Users\\langweil.m\\Downloads\\axi_stream_tutorial\\axi_stream_tutorial\\divide.cpp"
+    ],
+    "file": "C:\\Users\\langweil.m\\Downloads\\axi_stream_tutorial\\axi_stream_tutorial\\divide.cpp"
+  },
+  {
+    "directory": "F:\\EECE4632\\HW4\\HLS\\divide_by_13",
+    "arguments": [
+      "C:\\Xilinx\\Vitis_HLS\\2024.1\\vcxx\\libexec\\clang++.exe",
+      "-fhls-tb",
+      "-hls-sim-headers-dir=C:\\Xilinx\\Vitis_HLS\\2024.1\\include",
+      "",
+      "-c",
+      "C:\\Users\\langweil.m\\Downloads\\axi_stream_tutorial\\axi_stream_tutorial\\divide_tb.cpp"
+    ],
+    "file": "C:\\Users\\langweil.m\\Downloads\\axi_stream_tutorial\\axi_stream_tutorial\\divide_tb.cpp"
+  }
+]

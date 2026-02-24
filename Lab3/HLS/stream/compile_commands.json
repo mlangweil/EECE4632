@@ -1,0 +1,14 @@
+[
+  {
+    "directory": "F:\\EECE4632\\Lab3\\stream",
+    "arguments": [
+      "C:\\Xilinx\\Vitis_HLS\\2024.1\\vcxx\\libexec\\clang++.exe",
+      "-fhls",
+      "-hls-syn-headers-dir=C:\\Xilinx\\Vitis_HLS\\2024.1\\common\\technology\\autopilot",
+      "",
+      "-c",
+      "C:\\Users\\langweil.m\\Downloads\\axi_stream_tutorial\\axi_stream_tutorial\\example.cpp"
+    ],
+    "file": "C:\\Users\\langweil.m\\Downloads\\axi_stream_tutorial\\axi_stream_tutorial\\example.cpp"
+  }
+]

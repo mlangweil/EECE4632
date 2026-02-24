@@ -1,0 +1,157 @@
+<ENTRY>
+{
+ "thisFile": "F:/EECE4632\\HW5\\HLS\\divide_by_13\\divide_by_13\\divide_by_13.hlsrun_csim_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "02/11/26 15:50:05",
+ "timestampMillis": "1316479970",
+ "buildStep": {
+  "cmdId": "c6072848-a31e-46c8-94a1-24ec0a3e1117",
+  "name": "vitis-run",
+  "logFile": "F:/EECE4632\\HW5\\HLS\\divide_by_13\\divide_by_13\\logs\\divide_by_13.steps.log",
+  "commandLine": "C:/Xilinx/Vitis/2024.1/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --csim --config F:\\EECE4632\\HW5\\HLS\\divide_by_13\\hls_config.cfg --work_dir divide_by_13 ",
+  "args": [
+   "--mode",
+   "hls",
+   "--csim",
+   "--config",
+   "F:\\EECE4632\\HW5\\HLS\\divide_by_13\\hls_config.cfg",
+   "--work_dir",
+   "divide_by_13"
+  ],
+  "iniFiles": [],
+  "cwd": "F:\\EECE4632\\HW5\\HLS\\divide_by_13"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "02/11/26 15:50:05",
+ "timestampMillis": "1316479971",
+ "status": {
+  "cmdId": "c6072848-a31e-46c8-94a1-24ec0a3e1117",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "02/11/26 15:50:11",
+ "timestampMillis": "1316485329",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_C_SIM",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "divide_by_13",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "F:/EECE4632\\HW5\\HLS\\divide_by_13\\divide_by_13.cpp",
+     "F:/EECE4632\\HW5\\HLS\\divide_by_13\\divide_by_13.h"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2024.1"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "02/11/26 15:50:11",
+ "timestampMillis": "1316485331",
+ "buildStep": {
+  "cmdId": "58788dc5-076e-42d4-be6d-4999b54c2aea",
+  "name": "csim_design",
+  "logFile": "F:/EECE4632\\HW5\\HLS\\divide_by_13\\divide_by_13\\hls\\hls.log",
+  "commandLine": "csim_design",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "F:\\EECE4632\\HW5\\HLS\\divide_by_13"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "02/11/26 15:50:11",
+ "timestampMillis": "1316485333",
+ "status": {
+  "cmdId": "58788dc5-076e-42d4-be6d-4999b54c2aea",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "02/11/26 15:50:15",
+ "timestampMillis": "1316489429",
+ "status": {
+  "cmdId": "58788dc5-076e-42d4-be6d-4999b54c2aea",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "02/11/26 15:50:15",
+ "timestampMillis": "1316489636",
+ "status": {
+  "cmdId": "c6072848-a31e-46c8-94a1-24ec0a3e1117",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "02/11/26 15:50:15",
+ "timestampMillis": "1316489637",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "02/11/26 15:50:15",
+ "timestampMillis": "1316489637",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

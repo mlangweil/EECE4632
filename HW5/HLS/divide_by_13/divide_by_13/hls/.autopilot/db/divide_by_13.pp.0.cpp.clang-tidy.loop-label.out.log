@@ -1,0 +1,30 @@
+F:\EECE4632\HW5\HLS\divide_by_13\divide_by_13\hls\.autopilot\db\divide_by_13.pp.0.cpp:1313:7: warning: Added loop label VITIS_LOOP_1223_1:   [xilinx-label-all-loops]
+      for (i = 0; i < __N - 1; ++i) {
+      ^~~
+      VITIS_LOOP_1223_1: 
+F:\EECE4632\HW5\HLS\divide_by_13\divide_by_13\hls\.autopilot\db\divide_by_13.pp.0.cpp:1313:7: note: FIX-IT applied suggested code changes
+F:\EECE4632\HW5\HLS\divide_by_13\divide_by_13\hls\.autopilot\db\divide_by_13.pp.0.cpp:2287:5: warning: Added loop label VITIS_LOOP_676_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_676_1: 
+F:\EECE4632\HW5\HLS\divide_by_13\divide_by_13\hls\.autopilot\db\divide_by_13.pp.0.cpp:2287:5: note: FIX-IT applied suggested code changes
+F:\EECE4632\HW5\HLS\divide_by_13\divide_by_13\hls\.autopilot\db\divide_by_13.pp.0.cpp:2301:5: warning: Added loop label VITIS_LOOP_690_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_690_1: 
+F:\EECE4632\HW5\HLS\divide_by_13\divide_by_13\hls\.autopilot\db\divide_by_13.pp.0.cpp:2301:5: note: FIX-IT applied suggested code changes
+F:\EECE4632\HW5\HLS\divide_by_13\divide_by_13\hls\.autopilot\db\divide_by_13.pp.0.cpp:2315:5: warning: Added loop label VITIS_LOOP_704_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_704_1: 
+F:\EECE4632\HW5\HLS\divide_by_13\divide_by_13\hls\.autopilot\db\divide_by_13.pp.0.cpp:2315:5: note: FIX-IT applied suggested code changes
+F:\EECE4632\HW5\HLS\divide_by_13\divide_by_13\hls\.autopilot\db\divide_by_13.pp.0.cpp:3944:7: warning: Added loop label VITIS_LOOP_1247_1:   [xilinx-label-all-loops]
+      for (i = 0; i < __N - 1; ++i) {
+      ^~~
+      VITIS_LOOP_1247_1: 
+F:\EECE4632\HW5\HLS\divide_by_13\divide_by_13\hls\.autopilot\db\divide_by_13.pp.0.cpp:3944:7: note: FIX-IT applied suggested code changes
+F:\EECE4632\HW5\HLS\divide_by_13\divide_by_13\hls\.autopilot\db\divide_by_13.pp.0.cpp:31773:5: warning: Added loop label VITIS_LOOP_11_1:   [xilinx-label-all-loops]
+    while(1)
+    ^~~~~
+    VITIS_LOOP_11_1: 
+F:\EECE4632\HW5\HLS\divide_by_13\divide_by_13\hls\.autopilot\db\divide_by_13.pp.0.cpp:31773:5: note: FIX-IT applied suggested code changes

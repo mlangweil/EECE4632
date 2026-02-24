@@ -1,0 +1,14 @@
+INFO: [v++ 60-1548] Creating build summary session with primary output X:/HW3/HLS/divisible/divisible\divisible.hlscompile_summary, at 01/22/26 11:38:26
+INFO: [v++ 82-31] Launching vitis_hls: vitis_hls -nolog -run csynth -work_dir X:/HW3/HLS/divisible/divisible -config X:/HW3/HLS/divisible/hls_config.cfg -cmdlineconfig X:/HW3/HLS/divisible/divisible/hls/config.cmdline
+INFO: [HLS 200-10] For user 'mlangweil' on host 'xilinx11-004.wincoe.coe.neu.edu' (Windows NT_amd64 version 10.0) on Thu Jan 22 11:38:42 -0500 2026
+INFO: [HLS 200-10] In directory 'X:/HW3/HLS/divisible'
+INFO: [HLS 200-2005] Using work_dir X:/HW3/HLS/divisible/divisible 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying ini 'syn.file=divisible.cpp' from X:/HW3/HLS/divisible/hls_config.cfg(7)
+INFO: [HLS 200-10] Adding design file 'X:/HW3/HLS/divisible/divisible.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.top=divisible' from X:/HW3/HLS/divisible/hls_config.cfg(8)
+INFO: [HLS 200-1465] Applying ini 'flow_target=vivado' from X:/HW3/HLS/divisible/hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying ini 'part=xczu3eg-sfvc784-2-e' from X:/HW3/HLS/divisible/hls_config.cfg(1)

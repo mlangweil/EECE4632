@@ -1,0 +1,11 @@
+{
+  "name": "divide_by_13",
+  "type": "HLS",
+  "configuration": {
+    "componentType": "HLS",
+    "configFiles": [
+      "hls_config.cfg"
+    ],
+    "work_dir": "divide_by_13"
+  }
+}

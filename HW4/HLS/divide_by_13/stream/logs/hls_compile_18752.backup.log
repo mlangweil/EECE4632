@@ -1,0 +1,36 @@
+INFO: [v++ 60-1548] Creating build summary session with primary output F:/EECE4632/HW4/HLS/stream/stream\stream.hlscompile_summary, at 02/02/26 16:21:30
+INFO: [v++ 82-31] Launching vitis_hls: vitis_hls -nolog -run csynth -work_dir F:/EECE4632/HW4/HLS/stream/stream -config F:/EECE4632/HW4/HLS/stream/hls_config.cfg -cmdlineconfig F:/EECE4632/HW4/HLS/stream/stream/hls/config.cmdline
+
+****** Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2024.1 (64-bit)
+  **** SW Build 5069499 on May 21 2024
+  **** IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+  **** SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+  **** Start of session at: Mon Feb  2 16:21:32 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source C:/Xilinx/Vitis_HLS/2024.1/scripts/vitis_hls/hls.tcl -notrace
+INFO: [HLS 200-10] For user 'langweil.m' on host 'wfxa4bb6dbb67af.nunet.neu.edu' (Windows NT_amd64 version 10.0) on Mon Feb 02 16:21:33 -0500 2026
+INFO: [HLS 200-10] In directory 'F:/EECE4632/HW4/HLS/stream'
+INFO: [HLS 200-2005] Using work_dir F:/EECE4632/HW4/HLS/stream/stream 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+WARNING: [HLS 200-2001] file not found 'C:\Users\langweil.m\Downloads\axi_stream_tutorial\axi_stream_tutorial\divide.cppe' see [hls] from F:/EECE4632/HW4/HLS/stream/hls_config.cfg(8)
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:\Users\langweil.m\Downloads\axi_stream_tutorial\axi_stream_tutorial\divide.cppe' from F:/EECE4632/HW4/HLS/stream/hls_config.cfg(8)
+WARNING: [HLS 200-40] Cannot find design file 'C:/Users/langweil.m/Downloads/axi_stream_tutorial/axi_stream_tutorial/divide.cppe'
+INFO: [HLS 200-1465] Applying ini 'tb.file=C:\Users\langweil.m\Downloads\axi_stream_tutorial\axi_stream_tutorial\divide.cpp' from F:/EECE4632/HW4/HLS/stream/hls_config.cfg(9)
+INFO: [HLS 200-10] Adding test bench file 'C:/Users/langweil.m/Downloads/axi_stream_tutorial/axi_stream_tutorial/divide.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.top=divide_by_13' from F:/EECE4632/HW4/HLS/stream/hls_config.cfg(7)
+INFO: [HLS 200-1465] Applying ini 'flow_target=vivado' from F:/EECE4632/HW4/HLS/stream/hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying ini 'part=xczu3eg-sfvc784-2-e' from F:/EECE4632/HW4/HLS/stream/hls_config.cfg(1)
+INFO: [HLS 200-1611] Setting target device to 'xczu3eg-sfvc784-2-e'
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from F:/EECE4632/HW4/HLS/stream/hls_config.cfg(5)
+WARNING: [HLS 200-40] Cannot find source file C:/Users/langweil.m/Downloads/axi_stream_tutorial/axi_stream_tutorial/divide.cppe; skipping it.
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 2 seconds. CPU system time: 1 seconds. Elapsed time: 8.369 seconds; current allocated memory: 245.492 MB.
+WARNING: [HLS 200-1986] Could not apply TOP directive, invalid function, label, or variable (:0)
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.137 seconds; current allocated memory: 245.934 MB.
+ERROR: [HLS 200-70] Cannot find any design unit to elaborate.
+ERROR: Error in linking the design.
+INFO: [HLS 200-112] Total CPU user time: 2 seconds. Total CPU system time: 1 seconds. Total elapsed time: 8.745 seconds; peak allocated memory: 246.066 MB.

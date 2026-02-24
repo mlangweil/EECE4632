@@ -1,0 +1,26 @@
+[
+  {
+    "directory": "F:\\EECE4632\\HW5\\HLS\\divide_by_13",
+    "arguments": [
+      "C:\\Xilinx\\Vitis_HLS\\2024.1\\vcxx\\libexec\\clang++.exe",
+      "-fhls",
+      "-hls-syn-headers-dir=C:\\Xilinx\\Vitis_HLS\\2024.1\\common\\technology\\autopilot",
+      "",
+      "-c",
+      "F:\\EECE4632\\HW5\\HLS\\divide_by_13\\divide_by_13.cpp"
+    ],
+    "file": "F:\\EECE4632\\HW5\\HLS\\divide_by_13\\divide_by_13.cpp"
+  },
+  {
+    "directory": "F:\\EECE4632\\HW5\\HLS\\divide_by_13",
+    "arguments": [
+      "C:\\Xilinx\\Vitis_HLS\\2024.1\\vcxx\\libexec\\clang++.exe",
+      "-fhls-tb",
+      "-hls-sim-headers-dir=C:\\Xilinx\\Vitis_HLS\\2024.1\\include",
+      "",
+      "-c",
+      "F:\\EECE4632\\HW5\\HLS\\divide_by_13\\divide_tb.cpp"
+    ],
+    "file": "F:\\EECE4632\\HW5\\HLS\\divide_by_13\\divide_tb.cpp"
+  }
+]
