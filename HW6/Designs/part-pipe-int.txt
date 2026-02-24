@@ -1,0 +1,46 @@
+// Copyright (C) 2024 Advanced Micro Devices, Inc
+//
+// SPDX-License-Identifier: MIT
+
+#include "mmult_baseline.h"
+#include "ap_int.h"
+
+typedef ap_int<8> byte;
+
+void mmult_hw(byte in1[DATA_SIZE * DATA_SIZE],
+              byte in2[DATA_SIZE * DATA_SIZE],
+              int out[DATA_SIZE * DATA_SIZE],
+              byte dim)
+{
+#pragma HLS INTERFACE m_axi depth=16384 port=in1 offset=slave bundle=gmem
+#pragma HLS INTERFACE m_axi depth=16384 port=in2 offset=slave bundle=gmem
+#pragma HLS INTERFACE m_axi depth=16384 port=out offset=slave bundle=gmem
+
+#pragma HLS INTERFACE s_axilite port=dim   bundle=CTRL
+#pragma HLS INTERFACE s_axilite port=return bundle=CTRL
+
+    byte A[DATA_SIZE][DATA_SIZE];
+    byte B[DATA_SIZE][DATA_SIZE];
+
+#pragma HLS ARRAY_PARTITION variable=A dim=2 complete
+#pragma HLS ARRAY_PARTITION variable=B dim=1 complete
+
+    for (int i = 0; i < DATA_SIZE; i++) {
+        for (int j = 0; j < DATA_SIZE; j++) {
+#pragma HLS PIPELINE II=1
+            A[i][j] = in1[i * DATA_SIZE + j];
+            B[i][j] = in2[i * DATA_SIZE + j];
+        }
+    }
+
+    for (int i = 0; i < DATA_SIZE; i++) {
+        for (int j = 0; j < DATA_SIZE; j++) {
+#pragma HLS PIPELINE II=1
+            ap_int<32> sum = 0;
+            for (int k = 0; k < DATA_SIZE; k++) {
+                sum += A[i][k] * B[k][j];
+            }
+            out[i * DATA_SIZE + j] = sum.to_int();
+        }
+    }
+}

@@ -1,0 +1,31 @@
+// Copyright (C) 2024 Advanced Micro Devices, Inc
+//
+// SPDX-License-Identifier: MIT
+
+#include "mmult_baseline.h"
+#include "ap_int.h"
+
+typedef ap_int<8> byte;
+
+void mmult_hw(byte in1[DATA_SIZE * DATA_SIZE],
+              byte in2[DATA_SIZE * DATA_SIZE],
+              int out[DATA_SIZE * DATA_SIZE],
+              int dim)   // use int for dim
+{
+#pragma HLS INTERFACE m_axi depth=16384 port=in1
+#pragma HLS INTERFACE m_axi depth=16384 port=in2
+#pragma HLS INTERFACE m_axi depth=16384 port=out
+#pragma HLS INTERFACE s_axilite port=dim  bundle=CTRL
+#pragma HLS INTERFACE s_axilite port=return bundle=CTRL
+
+    // Initialize output
+    for (int i = 0; i < dim*dim; i++) out[i] = 0;
+
+    for (int i = 0; i < dim; i++){
+        for (int j = 0; j < dim; j++){
+            for (int k = 0; k < dim; k++){
+                out[i * dim + j] += (int)(in1[i*dim + k] * in2[k*dim + j]);
+            }
+        }
+    }
+}
