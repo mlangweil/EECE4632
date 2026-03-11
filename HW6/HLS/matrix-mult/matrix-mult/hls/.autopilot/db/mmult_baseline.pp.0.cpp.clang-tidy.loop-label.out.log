@@ -1,0 +1,70 @@
+F:\EECE4632\HW6\HLS\matrix-mult\matrix-mult\hls\.autopilot\db\mmult_baseline.pp.0.cpp:1317:7: warning: Added loop label VITIS_LOOP_1223_1:   [xilinx-label-all-loops]
+      for (i = 0; i < __N - 1; ++i) {
+      ^~~
+      VITIS_LOOP_1223_1: 
+F:\EECE4632\HW6\HLS\matrix-mult\matrix-mult\hls\.autopilot\db\mmult_baseline.pp.0.cpp:1317:7: note: FIX-IT applied suggested code changes
+F:\EECE4632\HW6\HLS\matrix-mult\matrix-mult\hls\.autopilot\db\mmult_baseline.pp.0.cpp:2291:5: warning: Added loop label VITIS_LOOP_676_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_676_1: 
+F:\EECE4632\HW6\HLS\matrix-mult\matrix-mult\hls\.autopilot\db\mmult_baseline.pp.0.cpp:2291:5: note: FIX-IT applied suggested code changes
+F:\EECE4632\HW6\HLS\matrix-mult\matrix-mult\hls\.autopilot\db\mmult_baseline.pp.0.cpp:2305:5: warning: Added loop label VITIS_LOOP_690_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_690_1: 
+F:\EECE4632\HW6\HLS\matrix-mult\matrix-mult\hls\.autopilot\db\mmult_baseline.pp.0.cpp:2305:5: note: FIX-IT applied suggested code changes
+F:\EECE4632\HW6\HLS\matrix-mult\matrix-mult\hls\.autopilot\db\mmult_baseline.pp.0.cpp:2319:5: warning: Added loop label VITIS_LOOP_704_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_704_1: 
+F:\EECE4632\HW6\HLS\matrix-mult\matrix-mult\hls\.autopilot\db\mmult_baseline.pp.0.cpp:2319:5: note: FIX-IT applied suggested code changes
+F:\EECE4632\HW6\HLS\matrix-mult\matrix-mult\hls\.autopilot\db\mmult_baseline.pp.0.cpp:3948:7: warning: Added loop label VITIS_LOOP_1247_1:   [xilinx-label-all-loops]
+      for (i = 0; i < __N - 1; ++i) {
+      ^~~
+      VITIS_LOOP_1247_1: 
+F:\EECE4632\HW6\HLS\matrix-mult\matrix-mult\hls\.autopilot\db\mmult_baseline.pp.0.cpp:3948:7: note: FIX-IT applied suggested code changes
+F:\EECE4632\HW6\HLS\matrix-mult\matrix-mult\hls\.autopilot\db\mmult_baseline.pp.0.cpp:5759:2: warning: Added loop label VITIS_LOOP_29_1:   [xilinx-label-all-loops]
+ for (int i = 0; i < 128; i++) {
+ ^~~
+ VITIS_LOOP_29_1: 
+F:\EECE4632\HW6\HLS\matrix-mult\matrix-mult\hls\.autopilot\db\mmult_baseline.pp.0.cpp:5759:2: note: FIX-IT applied suggested code changes
+F:\EECE4632\HW6\HLS\matrix-mult\matrix-mult\hls\.autopilot\db\mmult_baseline.pp.0.cpp:5760:9: warning: Added loop label VITIS_LOOP_30_2:   [xilinx-label-all-loops]
+        for (int j = 0; j < 128; j++) {
+        ^~~
+        VITIS_LOOP_30_2: 
+F:\EECE4632\HW6\HLS\matrix-mult\matrix-mult\hls\.autopilot\db\mmult_baseline.pp.0.cpp:5760:9: note: FIX-IT applied suggested code changes
+F:\EECE4632\HW6\HLS\matrix-mult\matrix-mult\hls\.autopilot\db\mmult_baseline.pp.0.cpp:5766:5: warning: Added loop label VITIS_LOOP_36_3:   [xilinx-label-all-loops]
+    for (int i = 0; i < 128; i++) {
+    ^~~
+    VITIS_LOOP_36_3: 
+F:\EECE4632\HW6\HLS\matrix-mult\matrix-mult\hls\.autopilot\db\mmult_baseline.pp.0.cpp:5766:5: note: FIX-IT applied suggested code changes
+F:\EECE4632\HW6\HLS\matrix-mult\matrix-mult\hls\.autopilot\db\mmult_baseline.pp.0.cpp:5767:9: warning: Added loop label VITIS_LOOP_37_4:   [xilinx-label-all-loops]
+        for (int j = 0; j < 128; j++) {
+        ^~~
+        VITIS_LOOP_37_4: 
+F:\EECE4632\HW6\HLS\matrix-mult\matrix-mult\hls\.autopilot\db\mmult_baseline.pp.0.cpp:5767:9: note: FIX-IT applied suggested code changes
+F:\EECE4632\HW6\HLS\matrix-mult\matrix-mult\hls\.autopilot\db\mmult_baseline.pp.0.cpp:5773:5: warning: Added loop label VITIS_LOOP_43_5:   [xilinx-label-all-loops]
+    for (int i = 0; i < 128; i++) {
+    ^~~
+    VITIS_LOOP_43_5: 
+F:\EECE4632\HW6\HLS\matrix-mult\matrix-mult\hls\.autopilot\db\mmult_baseline.pp.0.cpp:5773:5: note: FIX-IT applied suggested code changes
+F:\EECE4632\HW6\HLS\matrix-mult\matrix-mult\hls\.autopilot\db\mmult_baseline.pp.0.cpp:5774:9: warning: Added loop label VITIS_LOOP_44_6:   [xilinx-label-all-loops]
+        for (int j = 0; j < 128; j++) {
+        ^~~
+        VITIS_LOOP_44_6: 
+F:\EECE4632\HW6\HLS\matrix-mult\matrix-mult\hls\.autopilot\db\mmult_baseline.pp.0.cpp:5774:9: note: FIX-IT applied suggested code changes
+F:\EECE4632\HW6\HLS\matrix-mult\matrix-mult\hls\.autopilot\db\mmult_baseline.pp.0.cpp:5779:13: warning: Added loop label VITIS_LOOP_49_7:   [xilinx-label-all-loops]
+            for (int k = 0; k < 128; k += 8) {
+            ^~~
+            VITIS_LOOP_49_7: 
+F:\EECE4632\HW6\HLS\matrix-mult\matrix-mult\hls\.autopilot\db\mmult_baseline.pp.0.cpp:5779:13: note: FIX-IT applied suggested code changes
+F:\EECE4632\HW6\HLS\matrix-mult\matrix-mult\hls\.autopilot\db\mmult_baseline.pp.0.cpp:5780:17: warning: Added loop label VITIS_LOOP_50_8:   [xilinx-label-all-loops]
+                for (int u = 0; u < 8; u++) {
+                ^~~
+                VITIS_LOOP_50_8: 
+F:\EECE4632\HW6\HLS\matrix-mult\matrix-mult\hls\.autopilot\db\mmult_baseline.pp.0.cpp:5780:17: note: FIX-IT applied suggested code changes
+F:\EECE4632\HW6\HLS\matrix-mult\matrix-mult\hls\.autopilot\db\mmult_baseline.pp.0.cpp:5786:13: warning: Added loop label VITIS_LOOP_56_9:   [xilinx-label-all-loops]
+            for (int u = 0; u < 8; u++) sum += sum_array[u];
+            ^~~
+            VITIS_LOOP_56_9: 
+F:\EECE4632\HW6\HLS\matrix-mult\matrix-mult\hls\.autopilot\db\mmult_baseline.pp.0.cpp:5786:13: note: FIX-IT applied suggested code changes

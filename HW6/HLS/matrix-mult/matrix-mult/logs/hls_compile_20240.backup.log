@@ -1,0 +1,153 @@
+INFO: [v++ 60-1548] Creating build summary session with primary output F:/EECE4632/HW6/HLS/matrix-mult/matrix-mult\matrix-mult.hlscompile_summary, at 02/25/26 19:50:00
+INFO: [v++ 82-31] Launching vitis_hls: vitis_hls -nolog -run csynth -work_dir F:/EECE4632/HW6/HLS/matrix-mult/matrix-mult -config F:/EECE4632/HW6/HLS/matrix-mult/hls_config.cfg -cmdlineconfig F:/EECE4632/HW6/HLS/matrix-mult/matrix-mult/hls/config.cmdline
+
+****** Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2024.1 (64-bit)
+  **** SW Build 5069499 on May 21 2024
+  **** IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+  **** SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+  **** Start of session at: Wed Feb 25 19:50:02 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source C:/Xilinx/Vitis_HLS/2024.1/scripts/vitis_hls/hls.tcl -notrace
+INFO: [HLS 200-10] For user 'langweil.m' on host 'wfxa4bb6dbb67af.nunet.neu.edu' (Windows NT_amd64 version 10.0) on Wed Feb 25 19:50:02 -0500 2026
+INFO: [HLS 200-10] In directory 'F:/EECE4632/HW6/HLS/matrix-mult'
+INFO: [HLS 200-2005] Using work_dir F:/EECE4632/HW6/HLS/matrix-mult/matrix-mult 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying ini 'syn.file=mmult_baseline.h' from F:/EECE4632/HW6/HLS/matrix-mult/hls_config.cfg(7)
+INFO: [HLS 200-10] Adding design file 'F:/EECE4632/HW6/HLS/matrix-mult/mmult_baseline.h' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=mmult_baseline.cpp' from F:/EECE4632/HW6/HLS/matrix-mult/hls_config.cfg(8)
+INFO: [HLS 200-10] Adding design file 'F:/EECE4632/HW6/HLS/matrix-mult/mmult_baseline.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'tb.file=mmult_tb.cpp' from F:/EECE4632/HW6/HLS/matrix-mult/hls_config.cfg(9)
+INFO: [HLS 200-10] Adding test bench file 'F:/EECE4632/HW6/HLS/matrix-mult/mmult_tb.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.top=mmult_hw' from F:/EECE4632/HW6/HLS/matrix-mult/hls_config.cfg(10)
+INFO: [HLS 200-1465] Applying ini 'flow_target=vivado' from F:/EECE4632/HW6/HLS/matrix-mult/hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying ini 'part=xczu3eg-sfvc784-2-e' from F:/EECE4632/HW6/HLS/matrix-mult/hls_config.cfg(1)
+INFO: [HLS 200-1611] Setting target device to 'xczu3eg-sfvc784-2-e'
+INFO: [HLS 200-1465] Applying ini 'csim.code_analyzer=1' from F:/EECE4632/HW6/HLS/matrix-mult/hls_config.cfg(11)
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from F:/EECE4632/HW6/HLS/matrix-mult/hls_config.cfg(5)
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 2 seconds. CPU system time: 2 seconds. Elapsed time: 8.15 seconds; current allocated memory: 245.906 MB.
+INFO: [HLS 200-10] Analyzing design file 'mmult_baseline.cpp' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 4.91 seconds; current allocated memory: 248.812 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 200-1995] There were 94 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details: F:/EECE4632/HW6/HLS/matrix-mult/matrix-mult/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 77 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details: F:/EECE4632/HW6/HLS/matrix-mult/matrix-mult/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 64 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details: F:/EECE4632/HW6/HLS/matrix-mult/matrix-mult/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 64 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details: F:/EECE4632/HW6/HLS/matrix-mult/matrix-mult/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 64 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details: F:/EECE4632/HW6/HLS/matrix-mult/matrix-mult/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 2,367 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details: F:/EECE4632/HW6/HLS/matrix-mult/matrix-mult/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 2,367 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details: F:/EECE4632/HW6/HLS/matrix-mult/matrix-mult/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 2,367 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details: F:/EECE4632/HW6/HLS/matrix-mult/matrix-mult/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 2,367 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details: F:/EECE4632/HW6/HLS/matrix-mult/matrix-mult/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 2,372 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details: F:/EECE4632/HW6/HLS/matrix-mult/matrix-mult/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 2,370 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details: F:/EECE4632/HW6/HLS/matrix-mult/matrix-mult/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 2,369 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details: F:/EECE4632/HW6/HLS/matrix-mult/matrix-mult/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 2,369 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details: F:/EECE4632/HW6/HLS/matrix-mult/matrix-mult/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 2,369 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details: F:/EECE4632/HW6/HLS/matrix-mult/matrix-mult/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 2,377 instructions in the design after the 'HW Transforms (step 1)' phase of compilation. See the Design Size Report for more details: F:/EECE4632/HW6/HLS/matrix-mult/matrix-mult/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 2,392 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details: F:/EECE4632/HW6/HLS/matrix-mult/matrix-mult/hls/syn/report/csynth_design_size.rpt
+WARNING: [HLS 214-398] Updating loop lower bound from 128 to 16384 for loop 'loop1' (mmult_baseline.cpp:37:8) in function 'mmult_hw'. (mmult_baseline.cpp:14:0)
+WARNING: [HLS 214-398] Updating loop upper bound from 128 to 16384 for loop 'loop1' (mmult_baseline.cpp:37:8) in function 'mmult_hw'. (mmult_baseline.cpp:14:0)
+INFO: [HLS 214-248] Applying array_partition to 'A': Complete partitioning on dimension 2. (mmult_baseline.cpp:22:6)
+INFO: [HLS 214-248] Applying array_partition to 'B': Complete partitioning on dimension 1. (mmult_baseline.cpp:23:9)
+INFO: [HLS 214-376] automatically set the pipeline for Loop< loop3> at mmult_baseline.cpp:41:8 
+INFO: [HLS 214-437] Automatically disabling loop flattening for loop 'loop1'. (mmult_baseline.cpp:37:8)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 10.56 seconds; current allocated memory: 250.863 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.007 seconds; current allocated memory: 250.867 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.317 seconds; current allocated memory: 260.492 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.269 seconds; current allocated memory: 263.332 MB.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.748 seconds; current allocated memory: 294.797 MB.
+INFO: [HLS 200-2061] Successfully converted nested loops 'VITIS_LOOP_28_1'(mmult_baseline.cpp:28:19) and 'VITIS_LOOP_29_2'(mmult_baseline.cpp:29:26) in function 'mmult_hw' into perfectly nested loops.
+INFO: [XFORM 203-541] Flattening a loop nest 'VITIS_LOOP_28_1' (mmult_baseline.cpp:28:19) in function 'mmult_hw'.
+WARNING: [HLS 200-946] Cannot merge loops in region 'mmult_hw': data dependence(s) between loops prevent merging.
+Resolution: For help on HLS 200-946 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-946.html
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.94 seconds; current allocated memory: 329.961 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'mmult_hw' ...
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'mmult_hw_Pipeline_VITIS_LOOP_28_1_VITIS_LOOP_29_2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_28_1_VITIS_LOOP_29_2'.
+WARNING: [HLS 200-885] The II Violation in module 'mmult_hw_Pipeline_VITIS_LOOP_28_1_VITIS_LOOP_29_2' (loop 'VITIS_LOOP_28_1_VITIS_LOOP_29_2'): Unable to schedule bus request operation ('gmem_load_2_req', mmult_baseline.cpp:32) on port 'gmem' (mmult_baseline.cpp:32) due to limited memory ports (II = 1). Please consider using a memory core with more ports or partitioning the array.
+Resolution: For help on HLS 200-885 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-885.html
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 2, Depth = 12, loop 'VITIS_LOOP_28_1_VITIS_LOOP_29_2'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.905 seconds; current allocated memory: 353.594 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 3.748 seconds; current allocated memory: 354.965 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'mmult_hw_Pipeline_loop3' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'loop3'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 2, loop 'loop3'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 1 seconds. Elapsed time: 9.589 seconds; current allocated memory: 355.129 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 1.628 seconds; current allocated memory: 355.355 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'mmult_hw' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 3.981 seconds; current allocated memory: 356.672 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 2.205 seconds; current allocated memory: 358.254 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'mmult_hw_Pipeline_VITIS_LOOP_28_1_VITIS_LOOP_29_2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'mmult_hw_Pipeline_VITIS_LOOP_28_1_VITIS_LOOP_29_2' pipeline 'VITIS_LOOP_28_1_VITIS_LOOP_29_2' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Finished creating RTL model for 'mmult_hw_Pipeline_VITIS_LOOP_28_1_VITIS_LOOP_29_2'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 5.242 seconds; current allocated memory: 367.246 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'mmult_hw_Pipeline_loop3' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'mmult_hw_Pipeline_loop3' pipeline 'loop3' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Generating core module 'mul_32s_32s_32_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_257_7_32_1_1': 2 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'mmult_hw_Pipeline_loop3'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1 seconds. CPU system time: 1 seconds. Elapsed time: 11.905 seconds; current allocated memory: 385.598 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'mmult_hw' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+WARNING: [RTGEN 206-101] Design contains AXI ports. Reset is fixed to synchronous and active low.
+INFO: [RTGEN 206-500] Setting interface mode on port 'mmult_hw/gmem' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'mmult_hw/in1' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'mmult_hw/in2' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'mmult_hw/out_r' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'mmult_hw/dim' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'mmult_hw' to 's_axilite & ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Bundling port 'dim' and 'return' to AXI-Lite port CTRL.
+INFO: [RTGEN 206-100] Bundling port 'in1', 'in2' and 'out_r' to AXI-Lite port control.
+INFO: [RTGEN 206-104] Estimated max fanout for 'mmult_hw' is 8193 from HDL expression: (1'b1 == ap_CS_fsm_state13)
+INFO: [RTGEN 206-100] Generating core module 'mul_7ns_32s_32_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'mmult_hw'.
+INFO: [RTMG 210-278] Implementing memory 'mmult_hw_A_RAM_AUTO_1R1W' using auto RAMs.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 10.008 seconds; current allocated memory: 407.059 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 1 seconds. CPU system time: 2 seconds. Elapsed time: 12.52 seconds; current allocated memory: 427.914 MB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 1 seconds. CPU system time: 1 seconds. Elapsed time: 3.158 seconds; current allocated memory: 437.824 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for mmult_hw.
+INFO: [VLOG 209-307] Generating Verilog RTL for mmult_hw.
+INFO: [HLS 200-790] **** Loop Constraint Status: All loop constraints were NOT satisfied.
+INFO: [HLS 200-789] **** Estimated Fmax: 136.99 MHz
+INFO: [HLS 200-112] Total CPU user time: 11 seconds. Total CPU system time: 7 seconds. Total elapsed time: 93.557 seconds; peak allocated memory: 437.875 MB.
+INFO: [v++ 60-791] Total elapsed time: 0h 1m 38s

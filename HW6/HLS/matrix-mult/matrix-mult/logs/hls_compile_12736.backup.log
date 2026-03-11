@@ -1,0 +1,42 @@
+INFO: [v++ 60-1548] Creating build summary session with primary output F:/EECE4632/HW6/HLS/matrix-mult/matrix-mult\matrix-mult.hlscompile_summary, at 02/25/26 17:52:59
+INFO: [v++ 82-31] Launching vitis_hls: vitis_hls -nolog -run csynth -work_dir F:/EECE4632/HW6/HLS/matrix-mult/matrix-mult -config F:/EECE4632/HW6/HLS/matrix-mult/hls_config.cfg -cmdlineconfig F:/EECE4632/HW6/HLS/matrix-mult/matrix-mult/hls/config.cmdline
+
+****** Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2024.1 (64-bit)
+  **** SW Build 5069499 on May 21 2024
+  **** IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+  **** SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+  **** Start of session at: Wed Feb 25 17:53:01 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source C:/Xilinx/Vitis_HLS/2024.1/scripts/vitis_hls/hls.tcl -notrace
+INFO: [HLS 200-10] For user 'langweil.m' on host 'wfxa4bb6dbb67af.nunet.neu.edu' (Windows NT_amd64 version 10.0) on Wed Feb 25 17:53:02 -0500 2026
+INFO: [HLS 200-10] In directory 'F:/EECE4632/HW6/HLS/matrix-mult'
+INFO: [HLS 200-2005] Using work_dir F:/EECE4632/HW6/HLS/matrix-mult/matrix-mult 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying ini 'syn.file=mmult_baseline.h' from F:/EECE4632/HW6/HLS/matrix-mult/hls_config.cfg(7)
+INFO: [HLS 200-10] Adding design file 'F:/EECE4632/HW6/HLS/matrix-mult/mmult_baseline.h' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=mmult_baseline.cpp' from F:/EECE4632/HW6/HLS/matrix-mult/hls_config.cfg(8)
+INFO: [HLS 200-10] Adding design file 'F:/EECE4632/HW6/HLS/matrix-mult/mmult_baseline.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'tb.file=mmult_tb.cpp' from F:/EECE4632/HW6/HLS/matrix-mult/hls_config.cfg(9)
+INFO: [HLS 200-10] Adding test bench file 'F:/EECE4632/HW6/HLS/matrix-mult/mmult_tb.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.top=mmult_hw' from F:/EECE4632/HW6/HLS/matrix-mult/hls_config.cfg(10)
+INFO: [HLS 200-1465] Applying ini 'flow_target=vivado' from F:/EECE4632/HW6/HLS/matrix-mult/hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying ini 'part=xczu3eg-sfvc784-2-e' from F:/EECE4632/HW6/HLS/matrix-mult/hls_config.cfg(1)
+INFO: [HLS 200-1611] Setting target device to 'xczu3eg-sfvc784-2-e'
+INFO: [HLS 200-1465] Applying ini 'clock=7ns' from F:/EECE4632/HW6/HLS/matrix-mult/hls_config.cfg(12)
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 7ns.
+INFO: [HLS 200-1465] Applying ini 'csim.code_analyzer=1' from F:/EECE4632/HW6/HLS/matrix-mult/hls_config.cfg(11)
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from F:/EECE4632/HW6/HLS/matrix-mult/hls_config.cfg(5)
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 2 seconds. CPU system time: 1 seconds. Elapsed time: 4.685 seconds; current allocated memory: 246.086 MB.
+INFO: [HLS 200-10] Analyzing design file 'mmult_baseline.cpp' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 5.02 seconds; current allocated memory: 248.938 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 200-1995] There were 101 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details: F:/EECE4632/HW6/HLS/matrix-mult/matrix-mult/hls/syn/report/csynth_design_size.rpt
+ERROR: [HLS 214-274] In 'VITIS_LOOP_29_2', Pragma conflict happens on 'UNROLL' and 'PIPELINE' pragmas: Complete unroll will break the target of other loop pragmas (mmult_baseline.cpp:29:26)
+ERROR: [HLS 200-1715] Encountered problem during source synthesis
+ERROR: Pre-synthesis failed.
+INFO: [HLS 200-112] Total CPU user time: 3 seconds. Total CPU system time: 2 seconds. Total elapsed time: 18.612 seconds; peak allocated memory: 249.441 MB.

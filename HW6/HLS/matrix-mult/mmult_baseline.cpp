@@ -1,0 +1,60 @@
+// Copyright (C) 2024 Advanced Micro Devices, Inc
+//
+// SPDX-License-Identifier: MIT
+
+#include "mmult_baseline.h"
+#include "ap_int.h"
+
+#define UNROLL_FACTOR 8  // number of parallel multipliers
+
+void mmult_hw(int in1[DATA_SIZE * DATA_SIZE],
+              int in2[DATA_SIZE * DATA_SIZE],
+              int out[DATA_SIZE * DATA_SIZE],
+              int dim)
+{
+#pragma HLS INTERFACE m_axi depth=16384 port=in1 offset=slave bundle=gmem
+#pragma HLS INTERFACE m_axi depth=16384 port=in2 offset=slave bundle=gmem
+#pragma HLS INTERFACE m_axi depth=16384 port=out offset=slave bundle=gmem
+
+#pragma HLS INTERFACE s_axilite port=dim   bundle=CTRL
+#pragma HLS INTERFACE s_axilite port=return bundle=CTRL
+
+    // Local buffers
+    int A[DATA_SIZE][DATA_SIZE];
+    int B[DATA_SIZE][DATA_SIZE];
+
+#pragma HLS ARRAY_PARTITION variable=A cyclic factor=UNROLL_FACTOR dim=2
+#pragma HLS ARRAY_PARTITION variable=B cyclic factor=UNROLL_FACTOR dim=1
+
+    for (int i = 0; i < DATA_SIZE; i++) {
+        for (int j = 0; j < DATA_SIZE; j++) {
+#pragma HLS PIPELINE II=1
+            A[i][j] = in1[i * DATA_SIZE + j];
+        }
+    }
+
+    for (int i = 0; i < DATA_SIZE; i++) {
+        for (int j = 0; j < DATA_SIZE; j++) {
+#pragma HLS PIPELINE II=1
+            B[i][j] = in2[i * DATA_SIZE + j];
+        }
+    }
+
+    for (int i = 0; i < DATA_SIZE; i++) {
+        for (int j = 0; j < DATA_SIZE; j++) {
+#pragma HLS PIPELINE II=1
+            int sum = 0;
+            int sum_array[UNROLL_FACTOR] = {0};  // partial sums for unroll lanes
+
+            for (int k = 0; k < DATA_SIZE; k += UNROLL_FACTOR) {
+                for (int u = 0; u < UNROLL_FACTOR; u++) {
+#pragma HLS UNROLL factor=UNROLL_FACTOR
+                    sum_array[u] += A[i][k + u] * B[k + u][j];
+                }
+            }
+
+            for (int u = 0; u < UNROLL_FACTOR; u++) sum += sum_array[u];
+            out[i * DATA_SIZE + j] = sum;
+        }
+    }
+}

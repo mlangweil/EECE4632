@@ -1,0 +1,66 @@
+<xilinx:hls_fe_msgs>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="directive:1:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="mmult_hw" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=mmult_hw" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="mmult_baseline.cpp:15:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="mmult_hw" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi depth=16384 port=in1 offset=slave bundle=gmem" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="mmult_baseline.cpp:16:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="mmult_hw" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi depth=16384 port=in2 offset=slave bundle=gmem" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="mmult_baseline.cpp:17:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="mmult_hw" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi depth=16384 port=out offset=slave bundle=gmem" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="mmult_baseline.cpp:19:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="mmult_hw" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=dim bundle=CTRL" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="mmult_baseline.cpp:20:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="mmult_hw" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=return bundle=CTRL" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="mmult_baseline.cpp:26:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="mmult_hw" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=A cyclic factor=8 dim=2" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="mmult_baseline.cpp:27:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="mmult_hw" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=B cyclic factor=8 dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="mmult_baseline.cpp:31:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="mmult_hw" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="mmult_baseline.cpp:38:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="mmult_hw" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="mmult_baseline.cpp:45:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="mmult_hw" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="mmult_baseline.cpp:51:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="mmult_hw" ARG_PragmaIsValid="1" ARG_PragmaOptions="factor=8" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="mmult_baseline.cpp:49:30" msg_body="Loop 'VITIS_LOOP_49_7' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_49_7"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="mmult_baseline.cpp:50:34" msg_body="Loop 'VITIS_LOOP_50_8' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_50_8"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="mmult_baseline.cpp:56:30" msg_body="Loop 'VITIS_LOOP_56_9' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_56_9"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="mmult_baseline.cpp:14:0" msg_body="Unrolling loop 'anonymous' () in function 'mmult_hw' completely with a factor of 8">
+        <args Factor="8" LoopName="anonymous"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="mmult_baseline.cpp:14:0" msg_body="Unrolling loop 'VITIS_LOOP_49_7' (mmult_baseline.cpp:49:30) in function 'mmult_hw' completely with a factor of 16">
+        <args Factor="16" LoopLoc="mmult_baseline.cpp:49:30" LoopName="VITIS_LOOP_49_7"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="mmult_baseline.cpp:14:0" msg_body="Unrolling loop 'VITIS_LOOP_50_8' (mmult_baseline.cpp:50:34) in function 'mmult_hw' completely with a factor of 8">
+        <args Factor="8" LoopLoc="mmult_baseline.cpp:50:34" LoopName="VITIS_LOOP_50_8"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="mmult_baseline.cpp:14:0" msg_body="Unrolling loop 'VITIS_LOOP_56_9' (mmult_baseline.cpp:56:30) in function 'mmult_hw' completely with a factor of 8">
+        <args Factor="8" LoopLoc="mmult_baseline.cpp:56:30" LoopName="VITIS_LOOP_56_9"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="mmult_baseline.cpp:23:6" msg_body="Applying array_partition to 'A': Cyclic partitioning with factor 8 on dimension 2.">
+        <args Dim="2" Factor="8" Mode="Cyclic" UOName="A"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="mmult_baseline.cpp:24:9" msg_body="Applying array_partition to 'B': Cyclic partitioning with factor 8 on dimension 1.">
+        <args Dim="1" Factor="8" Mode="Cyclic" UOName="B"/>
+    </msg>
+</xilinx:hls_fe_msgs>
+

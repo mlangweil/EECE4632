@@ -1,0 +1,8 @@
+{
+  "workspaceRoot": "F:\\EECE4632\\HW6\\HLS",
+  "mapping": {
+    "matrix-mult\\mmult_baseline.cpp": "matrix-mult",
+    "matrix-mult\\mmult_tb.cpp": "matrix-mult",
+    "matrix-mult\\mmult_baseline.h": "matrix-mult"
+  }
+}

@@ -1,0 +1,45 @@
+INFO: [vitis-run 60-1548] Creating build summary session with primary output D:/EECE4632/HW6/HLS/matrix-mult/matrix-mult\matrix-mult.hlsrun_csim_summary, at 02/24/26 22:12:04
+INFO: [vitis-run 82-31] Launching vitis_hls: vitis_hls -nolog -run csim -work_dir D:/EECE4632/HW6/HLS/matrix-mult/matrix-mult -config D:/EECE4632/HW6/HLS/matrix-mult/hls_config.cfg -cmdlineconfig D:/EECE4632/HW6/HLS/matrix-mult/matrix-mult/hls/config.cmdline
+
+****** Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2024.1 (64-bit)
+  **** SW Build 5069499 on May 21 2024
+  **** IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+  **** SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+  **** Start of session at: Tue Feb 24 22:12:06 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source C:/Xilinx/Vitis_HLS/2024.1/scripts/vitis_hls/hls.tcl -notrace
+INFO: [HLS 200-10] For user 'maxls' on host 'max-zbk' (Windows NT_amd64 version 10.0) on Tue Feb 24 22:12:06 -0500 2026
+INFO: [HLS 200-10] In directory 'D:/EECE4632/HW6/HLS/matrix-mult'
+INFO: [HLS 200-2005] Using work_dir D:/EECE4632/HW6/HLS/matrix-mult/matrix-mult 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying ini 'syn.file=mmult_baseline.h' from D:/EECE4632/HW6/HLS/matrix-mult/hls_config.cfg(7)
+INFO: [HLS 200-10] Adding design file 'D:/EECE4632/HW6/HLS/matrix-mult/mmult_baseline.h' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=mmult_baseline.cpp' from D:/EECE4632/HW6/HLS/matrix-mult/hls_config.cfg(8)
+INFO: [HLS 200-10] Adding design file 'D:/EECE4632/HW6/HLS/matrix-mult/mmult_baseline.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'tb.file=mmult_tb.cpp' from D:/EECE4632/HW6/HLS/matrix-mult/hls_config.cfg(9)
+INFO: [HLS 200-10] Adding test bench file 'D:/EECE4632/HW6/HLS/matrix-mult/mmult_tb.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.top=mmult_hw' from D:/EECE4632/HW6/HLS/matrix-mult/hls_config.cfg(10)
+INFO: [HLS 200-1465] Applying ini 'flow_target=vivado' from D:/EECE4632/HW6/HLS/matrix-mult/hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying ini 'part=xczu3eg-sfvc784-2-e' from D:/EECE4632/HW6/HLS/matrix-mult/hls_config.cfg(1)
+INFO: [HLS 200-1611] Setting target device to 'xczu3eg-sfvc784-2-e'
+INFO: [HLS 200-1465] Applying ini 'csim.code_analyzer=1' from D:/EECE4632/HW6/HLS/matrix-mult/hls_config.cfg(11)
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from D:/EECE4632/HW6/HLS/matrix-mult/hls_config.cfg(5)
+INFO: [SIM 211-200] Executing Code Analyzer instead of classic HLS C simulation
+INFO: [SIM 211-200] Compiling source code mmult_baseline.cpp as hardware code with instrumentation
+INFO: [SIM 211-200] Compiling source code mmult_tb.cpp as test bench code with instrumentation
+INFO: [SIM 211-200] Compiling source code mmult_baseline.cpp as test bench code with instrumentation
+mmult_tb.cpp:74:9: error: no matching function for call to 'mmult_hw'
+        mmult_hw( (ap_uint<8>) in1, (ap_uint<8>)in2, (ap_int<32>) hw_result, dim);
+        ^~~~~~~~
+./mmult_baseline.h:14:6: note: candidate function not viable: no known conversion from 'ap_uint<8>' to 'int *' for 1st argument
+void mmult_hw(int in1[DATA_SIZE*DATA_SIZE] , int in2[DATA_SIZE*DATA_SIZE] , int out[DATA_SIZE*DATA_SIZE] , int dim);
+     ^
+1 error generated.
+ERROR: [SIM 211-200] Code Analyzer execution failed. Consider running the classic C simulation instead by disabling the hls.csim.code_analyzer option in the config file.
+ERROR: Problem running csim: child process exited abnormally
+INFO: [HLS 200-112] Total CPU user time: 2 seconds. Total CPU system time: 1 seconds. Total elapsed time: 6.951 seconds; peak allocated memory: 174.773 MB.

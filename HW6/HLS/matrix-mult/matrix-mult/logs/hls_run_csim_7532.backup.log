@@ -1,0 +1,2 @@
+INFO: [vitis-run 60-1548] Creating build summary session with primary output F:/EECE4632/HW6/HLS/matrix-mult/matrix-mult\matrix-mult.hlsrun_csim_summary, at 02/25/26 18:06:00
+INFO: [vitis-run 82-31] Launching vitis_hls: vitis_hls -nolog -run csim -work_dir F:/EECE4632/HW6/HLS/matrix-mult/matrix-mult -config F:/EECE4632/HW6/HLS/matrix-mult/hls_config.cfg -cmdlineconfig F:/EECE4632/HW6/HLS/matrix-mult/matrix-mult/hls/config.cmdline

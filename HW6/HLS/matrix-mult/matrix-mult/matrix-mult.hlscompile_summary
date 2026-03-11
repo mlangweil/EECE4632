@@ -1,0 +1,246 @@
+<ENTRY>
+{
+ "thisFile": "F:/EECE4632\\HW6\\HLS\\matrix-mult\\matrix-mult\\matrix-mult.hlscompile_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "02/27/26 17:17:57",
+ "timestampMillis": "2704151275",
+ "buildStep": {
+  "cmdId": "7601128c-828e-4f2d-919e-518394ddcb30",
+  "name": "v++",
+  "logFile": "F:/EECE4632\\HW6\\HLS\\matrix-mult\\matrix-mult\\logs\\matrix-mult.steps.log",
+  "commandLine": "C:/Xilinx/Vitis/2024.1/bin/unwrapped/win64.o/v++.exe  -c --mode hls --config F:\\EECE4632\\HW6\\HLS\\matrix-mult\\hls_config.cfg --work_dir matrix-mult ",
+  "args": [
+   "-c",
+   "--mode",
+   "hls",
+   "--config",
+   "F:\\EECE4632\\HW6\\HLS\\matrix-mult\\hls_config.cfg",
+   "--work_dir",
+   "matrix-mult"
+  ],
+  "iniFiles": [
+   {
+    "path": "F:/EECE4632\\HW6\\HLS\\matrix-mult\\hls_config.cfg",
+    "content": "part=xczu3eg-sfvc784-2-e\n\n[hls]\nflow_target=vivado\npackage.output.format=ip_catalog\npackage.output.syn=false\nsyn.file=mmult_baseline.h\nsyn.file=mmult_baseline.cpp\ntb.file=mmult_tb.cpp\nsyn.top=mmult_hw\ncsim.code_analyzer=1"
+   }
+  ],
+  "cwd": "F:\\EECE4632\\HW6\\HLS\\matrix-mult"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "02/27/26 17:17:57",
+ "timestampMillis": "2704151276",
+ "status": {
+  "cmdId": "7601128c-828e-4f2d-919e-518394ddcb30",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "02/27/26 17:18:08",
+ "timestampMillis": "2704162333",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_COMPILE",
+  "target": "TT_HW",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "mmult_hw",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "F:/EECE4632\\HW6\\HLS\\matrix-mult\\mmult_baseline.h",
+     "F:/EECE4632\\HW6\\HLS\\matrix-mult\\mmult_baseline.cpp"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2024.1"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "02/27/26 17:18:08",
+ "timestampMillis": "2704162334",
+ "buildStep": {
+  "cmdId": "c1b6d178-e7f4-4b2e-b7d1-7df80d2b215b",
+  "name": "csynth_design",
+  "logFile": "F:/EECE4632\\HW6\\HLS\\matrix-mult\\matrix-mult\\hls\\hls.log",
+  "commandLine": "csynth_design",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "F:\\EECE4632\\HW6\\HLS\\matrix-mult"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "02/27/26 17:18:08",
+ "timestampMillis": "2704162336",
+ "status": {
+  "cmdId": "c1b6d178-e7f4-4b2e-b7d1-7df80d2b215b",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "02/27/26 17:18:08",
+ "timestampMillis": "2704162336",
+ "report": {
+  "path": "F:/EECE4632\\HW6\\HLS\\matrix-mult\\matrix-mult\\hls\\hls_data.json",
+  "name": "",
+  "fileType": "JSON",
+  "reportType": "HLS_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "02/27/26 17:18:08",
+ "timestampMillis": "2704162337",
+ "report": {
+  "path": "F:/EECE4632\\HW6\\HLS\\matrix-mult\\matrix-mult\\hls\\syn\\report\\csynth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "HLS_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "02/27/26 17:18:08",
+ "timestampMillis": "2704162337",
+ "report": {
+  "path": "F:/EECE4632\\HW6\\HLS\\matrix-mult\\matrix-mult\\hls\\syn\\report\\csynth.xml",
+  "name": "",
+  "fileType": "XML",
+  "reportType": "HLS_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "02/27/26 17:19:29",
+ "timestampMillis": "2704243926",
+ "report": {
+  "path": "F:/EECE4632\\HW6\\HLS\\matrix-mult\\matrix-mult\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_DATAFLOW",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "02/27/26 17:19:29",
+ "timestampMillis": "2704243926",
+ "report": {
+  "path": "F:/EECE4632\\HW6\\HLS\\matrix-mult\\matrix-mult\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_FUNCTION_CALL_GRAPH",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "02/27/26 17:19:29",
+ "timestampMillis": "2704243927",
+ "report": {
+  "path": "F:/EECE4632\\HW6\\HLS\\matrix-mult\\matrix-mult\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_SCHEDULE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "02/27/26 17:19:29",
+ "timestampMillis": "2704243928",
+ "status": {
+  "cmdId": "c1b6d178-e7f4-4b2e-b7d1-7df80d2b215b",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "02/27/26 17:19:30",
+ "timestampMillis": "2704244232",
+ "status": {
+  "cmdId": "7601128c-828e-4f2d-919e-518394ddcb30",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "02/27/26 17:19:30",
+ "timestampMillis": "2704244711",
+ "report": {
+  "path": "F:/EECE4632\\HW6\\HLS\\matrix-mult\\matrix-mult\\reports\\v++_compile_matrix-mult_guidance.html",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "02/27/26 17:19:30",
+ "timestampMillis": "2704244728",
+ "report": {
+  "path": "F:/EECE4632\\HW6\\HLS\\matrix-mult\\matrix-mult\\reports\\.db\\v++_compile_matrix-mult_guidance.pb3",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

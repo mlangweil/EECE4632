@@ -1,0 +1,13 @@
+<pragmas>
+<pragma file="mmult_baseline.cpp" line="45" pragmaType="pipeline" parentfunction="mmult_hw" off="0" ii="1" rewind="0" style=""/>
+<pragma file="mmult_baseline.cpp" line="51" pragmaType="unroll" parentfunction="mmult_hw" factor="8" skip_exit_check="0"/>
+<pragma file="mmult_baseline.cpp" line="38" pragmaType="pipeline" parentfunction="mmult_hw" off="0" ii="1" rewind="0" style=""/>
+<pragma file="mmult_baseline.cpp" line="31" pragmaType="pipeline" parentfunction="mmult_hw" off="0" ii="1" rewind="0" style=""/>
+<pragma file="mmult_baseline.cpp" line="15" pragmaType="interface" parentfunction="mmult_hw" mode="m_axi" port="in1" bundle="gmem" offset="slave" name="" depth="16384" num_read_outstanding="-1" num_write_outstanding="-1" max_burst_read_length="-1" max_burst_write_length="-1" latency="-1" max_widen_bitwidth="-1" channel=""/>
+<pragma file="mmult_baseline.cpp" line="16" pragmaType="interface" parentfunction="mmult_hw" mode="m_axi" port="in2" bundle="gmem" offset="slave" name="" depth="16384" num_read_outstanding="-1" num_write_outstanding="-1" max_burst_read_length="-1" max_burst_write_length="-1" latency="-1" max_widen_bitwidth="-1" channel=""/>
+<pragma file="mmult_baseline.cpp" line="17" pragmaType="interface" parentfunction="mmult_hw" mode="m_axi" port="out" bundle="gmem" offset="slave" name="" depth="16384" num_read_outstanding="-1" num_write_outstanding="-1" max_burst_read_length="-1" max_burst_write_length="-1" latency="-1" max_widen_bitwidth="-1" channel=""/>
+<pragma file="mmult_baseline.cpp" line="19" pragmaType="interface" parentfunction="mmult_hw" mode="s_axilite" port="dim" bundle="CTRL" offset="-1" name="" clock="" impl="" register="0"/>
+<pragma file="mmult_baseline.cpp" line="20" pragmaType="interface" parentfunction="mmult_hw" mode="s_axilite" port="" bundle="CTRL" offset="-1" name="" clock="" impl="" register="0"/>
+<pragma file="mmult_baseline.cpp" line="26" pragmaType="array_partition" parentfunction="mmult_hw" dim="2" factor="8" mode="cyclic" dynamic="0" variable="A"/>
+<pragma file="mmult_baseline.cpp" line="27" pragmaType="array_partition" parentfunction="mmult_hw" dim="1" factor="8" mode="cyclic" dynamic="0" variable="B"/>
+</pragmas>

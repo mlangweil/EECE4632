@@ -1,0 +1,174 @@
+{
+    "rules": {
+        "['D:\\\\EECE4632\\\\HW6\\\\HLS\\\\matrix-mult\\\\matrix-mult\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\mmult_baseline.cpp.0.bc', 'D:\\\\EECE4632\\\\HW6\\\\HLS\\\\matrix-mult\\\\matrix-mult\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\mmult_baseline.cpp.0.bc.d']": {
+            "command": [
+                "c:\\xilinx\\vitis_hls\\2024.1\\vcxx\\/libexec/clang.exe",
+                "-c",
+                "-emit-llvm",
+                "-MD",
+                "-MF",
+                "D:\\EECE4632\\HW6\\HLS\\matrix-mult\\matrix-mult\\hls\\csim\\code_analyzer\\.internal\\build\\mmult_baseline.cpp.0.bc.d",
+                "-fhls",
+                "-hls-syn-headers-dir=c:\\xilinx\\vitis_hls\\2024.1\\vcxx\\data\\autopilot",
+                "-vitis-hls=C:\\Xilinx\\Vitis_HLS\\2024.1",
+                "--sysroot=C:\\Xilinx\\Vitis_HLS\\2024.1\\tps\\mingw\\10.0.0\\win64.o\\nt",
+                "-fhlstoplevel=mmult_hw",
+                "-fslxtrace",
+                "mmult_baseline.cpp",
+                "-o",
+                "D:\\EECE4632\\HW6\\HLS\\matrix-mult\\matrix-mult\\hls\\csim\\code_analyzer\\.internal\\build\\mmult_baseline.cpp.0.bc"
+            ],
+            "exectime": 0.11739325523376465,
+            "cwd": "D:\\EECE4632\\HW6\\HLS\\matrix-mult"
+        },
+        "['D:\\\\EECE4632\\\\HW6\\\\HLS\\\\matrix-mult\\\\matrix-mult\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\mmult_tb.cpp.0.o', 'D:\\\\EECE4632\\\\HW6\\\\HLS\\\\matrix-mult\\\\matrix-mult\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\mmult_tb.cpp.0.o.d']": {
+            "command": [
+                "c:\\xilinx\\vitis_hls\\2024.1\\vcxx\\/libexec/clang.exe",
+                "-c",
+                "-MD",
+                "-MF",
+                "D:\\EECE4632\\HW6\\HLS\\matrix-mult\\matrix-mult\\hls\\csim\\code_analyzer\\.internal\\build\\mmult_tb.cpp.0.o.d",
+                "-fhls-tb",
+                "-hls-sim-headers-dir=c:\\xilinx\\vitis_hls\\2024.1\\vcxx\\data\\include",
+                "-vitis-hls=C:\\Xilinx\\Vitis_HLS\\2024.1",
+                "--sysroot=C:\\Xilinx\\Vitis_HLS\\2024.1\\tps\\mingw\\10.0.0\\win64.o\\nt",
+                "-fhlstoplevel=mmult_hw",
+                "-fslxskipfunctionbody",
+                "-fslxtrace",
+                "mmult_tb.cpp",
+                "-o",
+                "D:\\EECE4632\\HW6\\HLS\\matrix-mult\\matrix-mult\\hls\\csim\\code_analyzer\\.internal\\build\\mmult_tb.cpp.0.o"
+            ],
+            "exectime": 0.2886161804199219,
+            "cwd": "D:\\EECE4632\\HW6\\HLS\\matrix-mult"
+        },
+        "['D:\\\\EECE4632\\\\HW6\\\\HLS\\\\matrix-mult\\\\matrix-mult\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\mmult_baseline.cpp.0.o', 'D:\\\\EECE4632\\\\HW6\\\\HLS\\\\matrix-mult\\\\matrix-mult\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\mmult_baseline.cpp.0.o.d']": {
+            "command": [
+                "c:\\xilinx\\vitis_hls\\2024.1\\vcxx\\/libexec/clang.exe",
+                "-c",
+                "-MD",
+                "-MF",
+                "D:\\EECE4632\\HW6\\HLS\\matrix-mult\\matrix-mult\\hls\\csim\\code_analyzer\\.internal\\build\\mmult_baseline.cpp.0.o.d",
+                "-fhls-tb",
+                "-hls-sim-headers-dir=c:\\xilinx\\vitis_hls\\2024.1\\vcxx\\data\\include",
+                "-vitis-hls=C:\\Xilinx\\Vitis_HLS\\2024.1",
+                "--sysroot=C:\\Xilinx\\Vitis_HLS\\2024.1\\tps\\mingw\\10.0.0\\win64.o\\nt",
+                "-fhlstoplevel=mmult_hw",
+                "-fslxskipfunctionbody",
+                "-fslxtrace",
+                "mmult_baseline.cpp",
+                "-o",
+                "D:\\EECE4632\\HW6\\HLS\\matrix-mult\\matrix-mult\\hls\\csim\\code_analyzer\\.internal\\build\\mmult_baseline.cpp.0.o"
+            ],
+            "exectime": 0.13126373291015625,
+            "cwd": "D:\\EECE4632\\HW6\\HLS\\matrix-mult"
+        },
+        "['D:\\\\EECE4632\\\\HW6\\\\HLS\\\\matrix-mult\\\\matrix-mult\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\syn_srcs.bc']": {
+            "command": [
+                "c:\\xilinx\\vitis_hls\\2024.1\\vcxx\\/libexec/llvm-link.exe",
+                "D:\\EECE4632\\HW6\\HLS\\matrix-mult\\matrix-mult\\hls\\csim\\code_analyzer\\.internal\\build\\mmult_baseline.cpp.0.bc",
+                "-o",
+                "D:\\EECE4632\\HW6\\HLS\\matrix-mult\\matrix-mult\\hls\\csim\\code_analyzer\\.internal\\build\\syn_srcs.bc"
+            ],
+            "exectime": 0.050733327865600586,
+            "cwd": "D:\\EECE4632\\HW6\\HLS\\matrix-mult"
+        },
+        "['D:\\\\EECE4632\\\\HW6\\\\HLS\\\\matrix-mult\\\\matrix-mult\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\syn_srcs.opt.bc']": {
+            "command": [
+                "c:\\xilinx\\vitis_hls\\2024.1\\vcxx\\/libexec/opt.exe",
+                "-check-single-toplevel",
+                "-make-non-toplevel-internal",
+                "D:\\EECE4632\\HW6\\HLS\\matrix-mult\\matrix-mult\\hls\\csim\\code_analyzer\\.internal\\build\\syn_srcs.bc",
+                "-o",
+                "D:\\EECE4632\\HW6\\HLS\\matrix-mult\\matrix-mult\\hls\\csim\\code_analyzer\\.internal\\build\\syn_srcs.opt.bc"
+            ],
+            "exectime": 0.056333303451538086,
+            "cwd": "D:\\EECE4632\\HW6\\HLS\\matrix-mult"
+        },
+        "['F:\\\\EECE4632\\\\HW6\\\\HLS\\\\matrix-mult\\\\matrix-mult\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\mmult_baseline.cpp.0.bc', 'F:\\\\EECE4632\\\\HW6\\\\HLS\\\\matrix-mult\\\\matrix-mult\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\mmult_baseline.cpp.0.bc.d']": {
+            "command": [
+                "c:\\xilinx\\vitis_hls\\2024.1\\vcxx\\/libexec/clang.exe",
+                "-c",
+                "-emit-llvm",
+                "-MD",
+                "-MF",
+                "F:\\EECE4632\\HW6\\HLS\\matrix-mult\\matrix-mult\\hls\\csim\\code_analyzer\\.internal\\build\\mmult_baseline.cpp.0.bc.d",
+                "-fhls",
+                "-hls-syn-headers-dir=c:\\xilinx\\vitis_hls\\2024.1\\vcxx\\data\\autopilot",
+                "-vitis-hls=C:\\Xilinx\\Vitis_HLS\\2024.1",
+                "--sysroot=C:\\Xilinx\\Vitis_HLS\\2024.1\\tps\\mingw\\10.0.0\\win64.o\\nt",
+                "-fhlstoplevel=mmult_hw",
+                "-fslxtrace",
+                "mmult_baseline.cpp",
+                "-o",
+                "F:\\EECE4632\\HW6\\HLS\\matrix-mult\\matrix-mult\\hls\\csim\\code_analyzer\\.internal\\build\\mmult_baseline.cpp.0.bc"
+            ],
+            "exectime": 1.1655733585357666,
+            "cwd": "F:\\EECE4632\\HW6\\HLS\\matrix-mult"
+        },
+        "['F:\\\\EECE4632\\\\HW6\\\\HLS\\\\matrix-mult\\\\matrix-mult\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\mmult_tb.cpp.0.o', 'F:\\\\EECE4632\\\\HW6\\\\HLS\\\\matrix-mult\\\\matrix-mult\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\mmult_tb.cpp.0.o.d']": {
+            "command": [
+                "c:\\xilinx\\vitis_hls\\2024.1\\vcxx\\/libexec/clang.exe",
+                "-c",
+                "-MD",
+                "-MF",
+                "F:\\EECE4632\\HW6\\HLS\\matrix-mult\\matrix-mult\\hls\\csim\\code_analyzer\\.internal\\build\\mmult_tb.cpp.0.o.d",
+                "-fhls-tb",
+                "-hls-sim-headers-dir=c:\\xilinx\\vitis_hls\\2024.1\\vcxx\\data\\include",
+                "-vitis-hls=C:\\Xilinx\\Vitis_HLS\\2024.1",
+                "--sysroot=C:\\Xilinx\\Vitis_HLS\\2024.1\\tps\\mingw\\10.0.0\\win64.o\\nt",
+                "-fhlstoplevel=mmult_hw",
+                "-fslxskipfunctionbody",
+                "-fslxtrace",
+                "mmult_tb.cpp",
+                "-o",
+                "F:\\EECE4632\\HW6\\HLS\\matrix-mult\\matrix-mult\\hls\\csim\\code_analyzer\\.internal\\build\\mmult_tb.cpp.0.o"
+            ],
+            "exectime": 1.4118294715881348,
+            "cwd": "F:\\EECE4632\\HW6\\HLS\\matrix-mult"
+        },
+        "['F:\\\\EECE4632\\\\HW6\\\\HLS\\\\matrix-mult\\\\matrix-mult\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\mmult_baseline.cpp.0.o', 'F:\\\\EECE4632\\\\HW6\\\\HLS\\\\matrix-mult\\\\matrix-mult\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\mmult_baseline.cpp.0.o.d']": {
+            "command": [
+                "c:\\xilinx\\vitis_hls\\2024.1\\vcxx\\/libexec/clang.exe",
+                "-c",
+                "-MD",
+                "-MF",
+                "F:\\EECE4632\\HW6\\HLS\\matrix-mult\\matrix-mult\\hls\\csim\\code_analyzer\\.internal\\build\\mmult_baseline.cpp.0.o.d",
+                "-fhls-tb",
+                "-hls-sim-headers-dir=c:\\xilinx\\vitis_hls\\2024.1\\vcxx\\data\\include",
+                "-vitis-hls=C:\\Xilinx\\Vitis_HLS\\2024.1",
+                "--sysroot=C:\\Xilinx\\Vitis_HLS\\2024.1\\tps\\mingw\\10.0.0\\win64.o\\nt",
+                "-fhlstoplevel=mmult_hw",
+                "-fslxskipfunctionbody",
+                "-fslxtrace",
+                "mmult_baseline.cpp",
+                "-o",
+                "F:\\EECE4632\\HW6\\HLS\\matrix-mult\\matrix-mult\\hls\\csim\\code_analyzer\\.internal\\build\\mmult_baseline.cpp.0.o"
+            ],
+            "exectime": 1.4474756717681885,
+            "cwd": "F:\\EECE4632\\HW6\\HLS\\matrix-mult"
+        },
+        "['F:\\\\EECE4632\\\\HW6\\\\HLS\\\\matrix-mult\\\\matrix-mult\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\syn_srcs.bc']": {
+            "command": [
+                "c:\\xilinx\\vitis_hls\\2024.1\\vcxx\\/libexec/llvm-link.exe",
+                "F:\\EECE4632\\HW6\\HLS\\matrix-mult\\matrix-mult\\hls\\csim\\code_analyzer\\.internal\\build\\mmult_baseline.cpp.0.bc",
+                "-o",
+                "F:\\EECE4632\\HW6\\HLS\\matrix-mult\\matrix-mult\\hls\\csim\\code_analyzer\\.internal\\build\\syn_srcs.bc"
+            ],
+            "exectime": 0.08697152137756348,
+            "cwd": "F:\\EECE4632\\HW6\\HLS\\matrix-mult"
+        },
+        "['F:\\\\EECE4632\\\\HW6\\\\HLS\\\\matrix-mult\\\\matrix-mult\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\syn_srcs.opt.bc']": {
+            "command": [
+                "c:\\xilinx\\vitis_hls\\2024.1\\vcxx\\/libexec/opt.exe",
+                "-check-single-toplevel",
+                "-make-non-toplevel-internal",
+                "F:\\EECE4632\\HW6\\HLS\\matrix-mult\\matrix-mult\\hls\\csim\\code_analyzer\\.internal\\build\\syn_srcs.bc",
+                "-o",
+                "F:\\EECE4632\\HW6\\HLS\\matrix-mult\\matrix-mult\\hls\\csim\\code_analyzer\\.internal\\build\\syn_srcs.opt.bc"
+            ],
+            "exectime": 0.07588481903076172,
+            "cwd": "F:\\EECE4632\\HW6\\HLS\\matrix-mult"
+        }
+    }
+}

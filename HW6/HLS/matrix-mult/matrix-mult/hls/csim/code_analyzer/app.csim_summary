@@ -1,0 +1,66 @@
+<ENTRY>
+{
+ "thisFile": "F:/EECE4632\\HW6\\HLS\\matrix-mult\\matrix-mult\\hls\\csim\\code_analyzer\\app.csim_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "Wed Feb 25 19:41:49 2026",
+ "timestampMillis": "1772066509313",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_C_SIM",
+  "kernels": [],
+  "toolVersion": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "Wed Feb 25 19:41:49 2026",
+ "timestampMillis": "1772066509314",
+ "buildStep": {
+  "cmdId": "ef90c034-12ab-11f1-9274-a4bb6dbb67af",
+  "name": "vitis_c++",
+  "logFile": "",
+  "commandLine": "vitis_c++ code_analyzer",
+  "args": [
+   "code_analyzer"
+  ],
+  "iniFiles": [],
+  "cwd": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Wed Feb 25 19:41:49 2026",
+ "timestampMillis": "1772066509314",
+ "status": {
+  "cmdId": "ef90c034-12ab-11f1-9274-a4bb6dbb67af",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Wed Feb 25 19:41:52 2026",
+ "timestampMillis": "1772066512401",
+ "status": {
+  "cmdId": "ef90c034-12ab-11f1-9274-a4bb6dbb67af",
+  "state": "CS_FAILED"
+ }
+}
+</ENTRY>

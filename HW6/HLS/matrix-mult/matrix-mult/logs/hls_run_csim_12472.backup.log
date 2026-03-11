@@ -1,0 +1,65 @@
+INFO: [vitis-run 60-1548] Creating build summary session with primary output F:/EECE4632/HW6/HLS/matrix-mult/matrix-mult\matrix-mult.hlsrun_csim_summary, at 02/25/26 15:30:45
+INFO: [vitis-run 82-31] Launching vitis_hls: vitis_hls -nolog -run csim -work_dir F:/EECE4632/HW6/HLS/matrix-mult/matrix-mult -config F:/EECE4632/HW6/HLS/matrix-mult/hls_config.cfg -cmdlineconfig F:/EECE4632/HW6/HLS/matrix-mult/matrix-mult/hls/config.cmdline
+
+****** Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2024.1 (64-bit)
+  **** SW Build 5069499 on May 21 2024
+  **** IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+  **** SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+  **** Start of session at: Wed Feb 25 15:30:47 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source C:/Xilinx/Vitis_HLS/2024.1/scripts/vitis_hls/hls.tcl -notrace
+INFO: [HLS 200-10] For user 'langweil.m' on host 'wfxa4bb6dbb67af.nunet.neu.edu' (Windows NT_amd64 version 10.0) on Wed Feb 25 15:30:48 -0500 2026
+INFO: [HLS 200-10] In directory 'F:/EECE4632/HW6/HLS/matrix-mult'
+INFO: [HLS 200-2005] Using work_dir F:/EECE4632/HW6/HLS/matrix-mult/matrix-mult 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying ini 'syn.file=mmult_baseline.h' from F:/EECE4632/HW6/HLS/matrix-mult/hls_config.cfg(7)
+INFO: [HLS 200-10] Adding design file 'F:/EECE4632/HW6/HLS/matrix-mult/mmult_baseline.h' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=mmult_baseline.cpp' from F:/EECE4632/HW6/HLS/matrix-mult/hls_config.cfg(8)
+INFO: [HLS 200-10] Adding design file 'F:/EECE4632/HW6/HLS/matrix-mult/mmult_baseline.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'tb.file=mmult_tb.cpp' from F:/EECE4632/HW6/HLS/matrix-mult/hls_config.cfg(9)
+INFO: [HLS 200-10] Adding test bench file 'F:/EECE4632/HW6/HLS/matrix-mult/mmult_tb.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.top=mmult_hw' from F:/EECE4632/HW6/HLS/matrix-mult/hls_config.cfg(10)
+INFO: [HLS 200-1465] Applying ini 'flow_target=vivado' from F:/EECE4632/HW6/HLS/matrix-mult/hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying ini 'part=xczu3eg-sfvc784-2-e' from F:/EECE4632/HW6/HLS/matrix-mult/hls_config.cfg(1)
+INFO: [HLS 200-1611] Setting target device to 'xczu3eg-sfvc784-2-e'
+INFO: [HLS 200-1465] Applying ini 'csim.code_analyzer=1' from F:/EECE4632/HW6/HLS/matrix-mult/hls_config.cfg(11)
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from F:/EECE4632/HW6/HLS/matrix-mult/hls_config.cfg(5)
+INFO: [SIM 211-200] Executing Code Analyzer instead of classic HLS C simulation
+INFO: [SIM 211-200] Compiling source code mmult_baseline.cpp as hardware code with instrumentation
+INFO: [SIM 211-200] Compiling source code mmult_tb.cpp as test bench code with instrumentation
+INFO: [SIM 211-200] Compiling source code mmult_baseline.cpp as test bench code with instrumentation
+INFO: [SIM 211-200] Linking hardware code
+INFO: [SIM 211-200] Transforming hardware bitcode
+INFO: [SIM 211-200] Linking executable
+LLVM ERROR: spec:0:0: error: [clang] Failed to get File Lock on: F:\EECE4632\HW6\HLS\matrix-mult\matrix-mult\hls\csim\code_analyzer/.internal/instrument/database.json
+PLEASE submit a bug report and include the crash backtrace, preprocessed source, and associated run script.
+Stack dump:
+0.	Program arguments: c:\\xilinx\\vitis_hls\\2024.1\\vcxx\\/libexec/clang++.exe -o F:\\EECE4632\\HW6\\HLS\\matrix-mult\\matrix-mult\\hls\\csim\\code_analyzer\\.internal\\build\\app.exe F:\\EECE4632\\HW6\\HLS\\matrix-mult\\matrix-mult\\hls\\csim\\code_analyzer\\.internal\\build\\mmult_tb.cpp.0.o F:\\EECE4632\\HW6\\HLS\\matrix-mult\\matrix-mult\\hls\\csim\\code_analyzer\\.internal\\build\\mmult_baseline.cpp.0.o F:\\EECE4632\\HW6\\HLS\\matrix-mult\\matrix-mult\\hls\\csim\\code_analyzer\\.internal\\build\\syn_srcs.opt.bc -fhls -fhlstoplevel=mmult_hw -vitis-hls=C:\\Xilinx\\Vitis_HLS\\2024.1 -fslxtrace -Wl,-mllvm,-profilerOutputDirectory=F:\\EECE4632\\HW6\\HLS\\matrix-mult\\matrix-mult\\hls\\csim\\code_analyzer\\.internal\\profiler\\0 -fslxpthreads -lpthread --sysroot=C:\\Xilinx\\Vitis_HLS\\2024.1\\tps\\mingw\\10.0.0\\win64.o\\nt
+1.	Compilation construction
+2.	Building compilation jobs
+3.	Building compilation jobs
+ #0 0x00007ff6fe0b6c86 (c:\xilinx\vitis_hls\2024.1\vcxx\libexec\clang++.exe+0x7c6c86)
+ #1 0x00007ffa1baaec01 (C:\WINDOWS\System32\msvcrt.dll+0x2ec01)
+ #2 0x00007ffa1bab305b (C:\WINDOWS\System32\msvcrt.dll+0x3305b)
+ #3 0x00007ff6fe07746b (c:\xilinx\vitis_hls\2024.1\vcxx\libexec\clang++.exe+0x78746b)
+ #4 0x00007ff7004e8f8e (c:\xilinx\vitis_hls\2024.1\vcxx\libexec\clang++.exe+0x2bf8f8e)
+ #5 0x00007ff6ff1fc486 (c:\xilinx\vitis_hls\2024.1\vcxx\libexec\clang++.exe+0x190c486)
+ #6 0x00007ff6fe240e8d (c:\xilinx\vitis_hls\2024.1\vcxx\libexec\clang++.exe+0x950e8d)
+ #7 0x00007ff6fe23e51e (c:\xilinx\vitis_hls\2024.1\vcxx\libexec\clang++.exe+0x94e51e)
+ #8 0x00007ff6fe230f9f (c:\xilinx\vitis_hls\2024.1\vcxx\libexec\clang++.exe+0x940f9f)
+ #9 0x00007ff6fe22971f (c:\xilinx\vitis_hls\2024.1\vcxx\libexec\clang++.exe+0x93971f)
+#10 0x00007ff6fd8f31c1 (c:\xilinx\vitis_hls\2024.1\vcxx\libexec\clang++.exe+0x31c1)
+#11 0x00007ff6fd8f13c4 (c:\xilinx\vitis_hls\2024.1\vcxx\libexec\clang++.exe+0x13c4)
+#12 0x00007ff6fd8f1506 (c:\xilinx\vitis_hls\2024.1\vcxx\libexec\clang++.exe+0x1506)
+#13 0x00007ffa1af1e8d7 (C:\WINDOWS\System32\KERNEL32.DLL+0x2e8d7)
+#14 0x00007ffa1c7ec53c (C:\WINDOWS\SYSTEM32\ntdll.dll+0x8c53c)
+slxcmd:0:0: warning: Non-zero exit code: 3221225501 returned by 'INFO: [SIM 211-200] Linking executable'
+ERROR: [SIM 211-200] An unexpected internal error occured, please report this as a bug.
+ERROR: [SIM 211-200] Code Analyzer execution failed. Consider running the classic C simulation instead by disabling the hls.csim.code_analyzer option in the config file.
+ERROR: Problem running csim: child process exited abnormally
+INFO: [HLS 200-112] Total CPU user time: 2 seconds. Total CPU system time: 1 seconds. Total elapsed time: 10.972 seconds; peak allocated memory: 246.238 MB.

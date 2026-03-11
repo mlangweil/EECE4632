@@ -1,0 +1,38 @@
+INFO: [v++ 60-1548] Creating build summary session with primary output D:/EECE4632/HW6/HLS/matrix-mult/matrix-mult\matrix-mult.hlscompile_summary, at 02/24/26 21:54:22
+INFO: [v++ 82-31] Launching vitis_hls: vitis_hls -nolog -run csynth -work_dir D:/EECE4632/HW6/HLS/matrix-mult/matrix-mult -config D:/EECE4632/HW6/HLS/matrix-mult/hls_config.cfg -cmdlineconfig D:/EECE4632/HW6/HLS/matrix-mult/matrix-mult/hls/config.cmdline
+
+****** Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2024.1 (64-bit)
+  **** SW Build 5069499 on May 21 2024
+  **** IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+  **** SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+  **** Start of session at: Tue Feb 24 21:54:25 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source C:/Xilinx/Vitis_HLS/2024.1/scripts/vitis_hls/hls.tcl -notrace
+INFO: [HLS 200-10] For user 'maxls' on host 'max-zbk' (Windows NT_amd64 version 10.0) on Tue Feb 24 21:54:25 -0500 2026
+INFO: [HLS 200-10] In directory 'D:/EECE4632/HW6/HLS/matrix-mult'
+INFO: [HLS 200-2005] Using work_dir D:/EECE4632/HW6/HLS/matrix-mult/matrix-mult 
+WARNING: cannot remove old output: D:/EECE4632/HW6/HLS/matrix-mult/matrix-mult/hls/.autopilot
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying ini 'syn.file=mmult_baseline.h' from D:/EECE4632/HW6/HLS/matrix-mult/hls_config.cfg(7)
+INFO: [HLS 200-10] Adding design file 'D:/EECE4632/HW6/HLS/matrix-mult/mmult_baseline.h' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=mmult_baseline.cpp' from D:/EECE4632/HW6/HLS/matrix-mult/hls_config.cfg(8)
+INFO: [HLS 200-10] Adding design file 'D:/EECE4632/HW6/HLS/matrix-mult/mmult_baseline.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'tb.file=mmult_tb.cpp' from D:/EECE4632/HW6/HLS/matrix-mult/hls_config.cfg(9)
+INFO: [HLS 200-10] Adding test bench file 'D:/EECE4632/HW6/HLS/matrix-mult/mmult_tb.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.top=mmult_hw' from D:/EECE4632/HW6/HLS/matrix-mult/hls_config.cfg(10)
+INFO: [HLS 200-1465] Applying ini 'flow_target=vivado' from D:/EECE4632/HW6/HLS/matrix-mult/hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying ini 'part=xczu3eg-sfvc784-2-e' from D:/EECE4632/HW6/HLS/matrix-mult/hls_config.cfg(1)
+INFO: [HLS 200-1611] Setting target device to 'xczu3eg-sfvc784-2-e'
+INFO: [HLS 200-1465] Applying ini 'csim.code_analyzer=1' from D:/EECE4632/HW6/HLS/matrix-mult/hls_config.cfg(11)
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from D:/EECE4632/HW6/HLS/matrix-mult/hls_config.cfg(5)
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 1 seconds. CPU system time: 1 seconds. Elapsed time: 5.666 seconds; current allocated memory: 175.234 MB.
+INFO: [HLS 200-10] Analyzing design file 'mmult_baseline.cpp' ... 
+ERROR: [HLS 207-3801] unknown type name 'byte' (./mmult_baseline.h:13:15)
+ERROR: [HLS 207-3801] unknown type name 'byte' (./mmult_baseline.h:13:35)
+ERROR:  
+INFO: [HLS 200-112] Total CPU user time: 1 seconds. Total CPU system time: 2 seconds. Total elapsed time: 7.36 seconds; peak allocated memory: 177.176 MB.
